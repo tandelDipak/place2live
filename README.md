@@ -18,7 +18,7 @@ Also, in the end, you can see [freedomhouse's](https://freedomhouse.org) score f
 
 How to see where live better?
 
-1. You need to install [Python 3.7](https://www.python.org/) which is required for building docs.
+1. You need to install [Python 3.7](https://www.python.org/)
 2. [Create and to activate the virtual environment](https://docs.python.org/3.7/library/venv.html)
 3. Install requirements for the project: `pip install -r requirements.txt`
 4. `python where.py`
