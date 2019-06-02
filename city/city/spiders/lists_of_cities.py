@@ -21,10 +21,9 @@ class CitySpider(Spider):
 
     def parse(self, response):
         """Scrape a list of countries and go each page."""
-        country_urls = response.xpath(
+        for country_url in response.xpath(
             "//a[contains(@href, 'ountry_result.jsp?country=')]/@href"
-        ).extract()
-        for country_url in country_urls:
+        ).getall():
             yield response.follow(country_url, self.parse_item)
 
     def parse_item(self, response):
