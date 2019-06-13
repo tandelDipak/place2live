@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/serhii73/place_to_live.svg?branch=master)](https://travis-ci.org/serhii73/place_to_live)
+
 This project about countries where better lives.
 The project uses [numbeo's](https://www.numbeo.com) data for analysis countries.
 Also, in the end, you can see [freedomhouse's](https://freedomhouse.org) score for each country.
