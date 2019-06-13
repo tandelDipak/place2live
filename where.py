@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pandas as pd
 
 df = pd.read_csv("city/output/list_of_countries.csv")
@@ -45,7 +46,8 @@ your_property_price_to_income_ratio = float(
     df[df.country == your_country]["property_price_to_income_ratio"]
 )
 print(
-    f"In your country house price to income ratio index is {your_property_price_to_income_ratio}"
+    f"In your country house "
+    f"price to income ratio index is {your_property_price_to_income_ratio}"
 )
 your_property_price_to_income_ratio = (
     input("What is your house price to income ratio (lower is better)? ")

@@ -38,42 +38,50 @@ class CitySpider(Spider):
         i.add_value("quality_of_life_index", quality_of_life_index)
 
         purchasing_power_index = response.xpath(
-            "//a[contains(text(), 'Purchasing Power Index')]/parent::td/following-sibling::td/text()"
+            "//a[contains(text(), "
+            "'Purchasing Power Index')]/parent::td/following-sibling::td/text()"
         ).extract_first()
         i.add_value("purchasing_power_index", purchasing_power_index)
 
         safety_index = response.xpath(
-            "//a[contains(text(), 'Safety Index')]/parent::td/following-sibling::td/text()"
+            "//a[contains(text(), "
+            "'Safety Index')]/parent::td/following-sibling::td/text()"
         ).extract_first()
         i.add_value("safety_index", safety_index)
 
         health_care_index = response.xpath(
-            "//a[contains(text(), 'Health Care Index')]/parent::td/following-sibling::td/text()"
+            "//a[contains(text(), "
+            "'Health Care Index')]/parent::td/following-sibling::td/text()"
         ).extract_first()
         i.add_value("health_care_index", health_care_index)
 
         climate_index = response.xpath(
-            "//a[contains(text(), 'Climate Index')]/parent::td/following-sibling::td/text()"
+            "//a[contains(text(), "
+            "'Climate Index')]/parent::td/following-sibling::td/text()"
         ).extract_first()
         i.add_value("climate_index", climate_index)
 
         cost_of_living_index = response.xpath(
-            "//a[contains(text(), 'Cost of Living Index')]/parent::td/following-sibling::td/text()"
+            "//a[contains(text(), "
+            "'Cost of Living Index')]/parent::td/following-sibling::td/text()"
         ).extract_first()
         i.add_value("cost_of_living_index", cost_of_living_index)
 
         property_price_to_income_ratio = response.xpath(
-            "//a[contains(text(), 'Property Price to Income Ratio')]/parent::td/following-sibling::td/text()"
+            "//a[contains(text(), "
+            "'Property Price to Income Ratio')]/parent::td/following-sibling::td/text()"
         ).extract_first()
         i.add_value("property_price_to_income_ratio", property_price_to_income_ratio)
 
         traffic_commute_time_index = response.xpath(
-            "//a[contains(text(), 'Traffic Commute Time Index')]/parent::td/following-sibling::td/text()"
+            "//a[contains(text(), "
+            "'Traffic Commute Time Index')]/parent::td/following-sibling::td/text()"
         ).extract_first()
         i.add_value("traffic_commute_time_index", traffic_commute_time_index)
 
         pollution_index = response.xpath(
-            "//a[contains(text(), 'Pollution Index')]/parent::td/following-sibling::td/text()"
+            "//a[contains(text(), "
+            "'Pollution Index')]/parent::td/following-sibling::td/text()"
         ).extract_first()
         i.add_value("pollution_index", pollution_index)
 
