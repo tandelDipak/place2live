@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from scrapy.loader import ItemLoader
+from traffic_index.items import TrafficIndexItem
 
 
 class TrafficSpider(scrapy.Spider):
