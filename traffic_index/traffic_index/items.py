@@ -9,12 +9,15 @@ from scrapy import Field, Item
 from scrapy.loader.processors import MapCompose
 from w3lib.html import remove_tags
 
+
 def parse_string(value):
     end = value.index("%")
     return value[:end + 1]
 
+
 def strip_string(value):
     return value.strip()
+
 
 class TrafficIndexItem(Item):
     # define the fields for your item here like:
