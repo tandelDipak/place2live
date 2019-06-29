@@ -1,0 +1,404 @@
+world_rank,city,country,congestion_level
+1,Mumbai,India,65%
+2,Bogota,Colombia,63%
+3,Lima,Peru,58%
+4,New Delhi,India,58%
+5,Moscow region (oblast),Russia,56%
+6,Istanbul,Turkey,53%
+7,Jakarta,Indonesia,53%
+8,Bangkok,Thailand,53%
+9,Mexico City,Mexico,52%
+10,Recife,Brazil,49%
+11,Bucharest,Romania,48%
+12,Saint Petersburg,Russia,47%
+13,Kiev,Ukraine,46%
+14,Dublin,Ireland,45%
+15,Lodz,Poland,44%
+16,Novosibirsk,Russia,44%
+17,Cairo,Egypt,44%
+18,Chongqing,China,44%
+19,Tel Aviv,Israel,42%
+20,Zhuhai,China,42%
+21,Sao Paulo,Brazil,42%
+22,Rio de Janeiro,Brazil,42%
+23,Guangzhou,China,42%
+24,Los Angeles,United States Of America,41%
+25,Tokyo,Japan,41%
+26,Krakow,Poland,40%
+27,Edinburgh,United Kingdom,40%
+28,Santiago,Chile,40%
+29,Athens,Greece,40%
+30,Beijing,China,40%
+31,Rome,Italy,39%
+32,Chengdu,China,39%
+33,Poznan,Poland,39%
+34,Warsaw,Poland,39%
+35,Salvador,Brazil,38%
+36,Vancouver,Canada,38%
+37,Changchun,China,38%
+38,Yekaterinburg,Russia,37%
+39,Brussels,Belgium,37%
+40,London,United Kingdom,37%
+41,Paris,France,36%
+42,New York,United States Of America,36%
+43,Osaka,Japan,36%
+44,Kuala Lumpur,Malaysia,36%
+45,Changsha,China,36%
+46,Buenos Aires,Argentina,36%
+47,Shenzhen,China,36%
+48,Palermo,Italy,35%
+49,Shenyang,China,35%
+50,Fortaleza,Brazil,35%
+51,Wroclaw,Poland,35%
+52,Sofia,Bulgaria,35%
+53,Marseille,France,35%
+54,Budapest,Hungary,35%
+55,San Francisco,United States Of America,34%
+56,Bournemouth,United Kingdom,34%
+57,Kaohsiung,Taiwan,34%
+58,Taipei,Taiwan,34%
+59,Sydney,Australia,34%
+60,Hull,United Kingdom,34%
+61,Belfast,United Kingdom,34%
+62,Brighton and Hove,United Kingdom,34%
+63,Porto Alegre,Brazil,33%
+64,Luxembourg,Luxembourg,33%
+65,Geneva,Switzerland,33%
+66,Shanghai,China,33%
+67,Hamburg,Germany,33%
+68,Belo Horizonte,Brazil,33%
+69,Bratislava,Slovakia,33%
+70,Taichung,Taiwan,33%
+71,Nagoya,Japan,32%
+72,Cork,Ireland,32%
+73,Bordeaux,France,32%
+74,Bristol,United Kingdom,32%
+75,Messina,Italy,32%
+76,Toronto,Canada,32%
+77,Lisbon,Portugal,32%
+78,Nizhny Novgorod,Russia,32%
+79,Hong Kong,Hong Kong,32%
+80,San Jose,United States Of America,32%
+81,Wuhan,China,32%
+82,Fuzhou,China,32%
+83,Shijiazhuang,China,32%
+84,Manchester,United Kingdom,32%
+85,Nice,France,31%
+86,Ankara,Turkey,31%
+87,Xiamen,China,31%
+88,Singapore,Singapore,31%
+89,Zurich,Switzerland,31%
+90,Cape Town,South Africa,31%
+91,Berlin,Germany,31%
+92,Antwerp,Belgium,31%
+93,Bydgoszcz,Poland,31%
+94,Genoa,Italy,31%
+95,Seattle,United States Of America,31%
+96,Tallinn,Estonia,30%
+97,Naples,Italy,30%
+98,Leicester,United Kingdom,30%
+99,Izmir,Turkey,30%
+100,"Gdansk, Gdynia and Sopot",Poland,30%
+101,Miami,United States Of America,30%
+102,Nuremberg,Germany,30%
+103,Milan,Italy,30%
+104,Tainan,Taiwan,30%
+105,Johannesburg,South Africa,30%
+106,Bremen,Germany,30%
+107,Vilnius,Lithuania,30%
+108,Stuttgart,Germany,30%
+109,Nanjing,China,30%
+110,Munich,Germany,30%
+111,Sapporo,Japan,30%
+112,Auckland,New Zealand,29%
+113,Melbourne,Australia,29%
+114,Grenoble,France,29%
+115,Coventry,United Kingdom,29%
+116,Namur,Belgium,29%
+117,Limerick,Ireland,29%
+118,Barcelona,Spain,29%
+119,Lyon,France,29%
+120,Lugano,Switzerland,28%
+121,Porto,Portugal,28%
+122,Chicago,United States Of America,28%
+123,The Hague,Netherlands,28%
+124,Nottingham,United Kingdom,28%
+125,Toulon,France,28%
+126,Toulouse,France,28%
+127,Lausanne,Switzerland,28%
+128,Cardiff,United Kingdom,28%
+129,Catania,Italy,28%
+130,Taoyuan,Taiwan,28%
+131,Washington,United States Of America,28%
+132,Honolulu,United States Of America,28%
+133,Haarlem,Netherlands,28%
+134,Thessaloniki,Greece,28%
+135,Birmingham-Wolverhampton,United Kingdom,28%
+136,Szczecin,Poland,27%
+137,Brno,Czech Republic,27%
+138,Montreal,Canada,27%
+139,Kobe,Japan,27%
+140,Southampton,United Kingdom,27%
+141,Ottawa,Canada,27%
+142,Wellington,New Zealand,27%
+143,Hangzhou,China,27%
+144,Leiden,Netherlands,27%
+145,Vienna,Austria,27%
+146,Bari,Italy,27%
+147,Curitiba,Brazil,27%
+148,Leeds-Bradford,United Kingdom,27%
+149,Prague,Czech Republic,27%
+150,Montpellier,France,27%
+151,Liverpool,United Kingdom,27%
+152,Bonn,Germany,27%
+153,Sheffield,United Kingdom,27%
+154,Tianjin,China,27%
+155,Reggio Calabria,Italy,27%
+156,Antalya,Turkey,27%
+157,Nantes,France,26%
+158,Salzburg,Austria,26%
+159,Frankfurt am Main,Germany,26%
+160,Bursa,Turkey,26%
+161,Swansea,United Kingdom,26%
+162,Dresden,Germany,26%
+163,Strasbourg,France,26%
+164,Atlanta,United States Of America,26%
+165,Ningbo,China,26%
+166,Adana,Turkey,26%
+167,Basel,Switzerland,26%
+168,Stockholm,Sweden,26%
+169,Baton Rouge,United States Of America,26%
+170,Graz,Austria,26%
+171,San Diego,United States Of America,25%
+172,Quanzhou,China,25%
+173,Brisbane,Australia,25%
+174,Boston,United States Of America,25%
+175,Palma de Mallorca,Spain,25%
+176,Cologne,Germany,25%
+177,Bologna,Italy,25%
+178,Newcastle-Sunderland,United Kingdom,25%
+179,Austin,United States Of America,25%
+180,Lublin,Poland,25%
+181,Bialystok,Poland,25%
+182,Pretoria,South Africa,25%
+183,Florence,Italy,25%
+184,Glasgow,United Kingdom,24%
+185,Lille,France,24%
+186,Portland,United States Of America,24%
+187,Riga,Latvia,24%
+188,Wiesbaden,Germany,24%
+189,Granada,Spain,24%
+190,Turin,Italy,24%
+191,Reading,United Kingdom,24%
+192,Dongguan,China,24%
+193,Portsmouth,United Kingdom,24%
+194,Kuwait City,Kuwait,24%
+195,Stoke-on-Trent,United Kingdom,24%
+196,Kosice,Slovakia,24%
+197,Philadelphia,United States Of America,24%
+198,Arnhem,Netherlands,24%
+199,Amsterdam,Netherlands,24%
+200,Mersin,Turkey,24%
+201,Sacramento,United States Of America,23%
+202,Dubai,United Arab Emirates,23%
+203,Ljubljana,Slovenia,23%
+204,Houston,United States Of America,23%
+205,Riverside,United States Of America,23%
+206,Ruhr region west,Germany,23%
+207,Tampa,United States Of America,23%
+208,Adelaide,Australia,23%
+209,Rotterdam,Netherlands,23%
+210,Prato,Italy,23%
+211,Riyadh,Saudi Arabia,23%
+212,Leuven,Belgium,23%
+213,Clermont-Ferrand,France,23%
+214,Gaziantep,Turkey,23%
+215,Gold Coast,Australia,23%
+216,Brest,France,22%
+217,Rennes,France,22%
+218,London,Canada,22%
+219,Nashville,United States Of America,22%
+220,Nijmegen,Netherlands,22%
+221,Orlando,United States Of America,22%
+222,Leipzig,Germany,22%
+223,Cagliari,Italy,22%
+224,Rouen,France,22%
+225,Groningen,Netherlands,22%
+226,Hamilton,New Zealand,22%
+227,Winnipeg,Canada,22%
+228,Madrid,Spain,22%
+229,Hannover,Germany,22%
+230,Charleston,United States Of America,22%
+231,Santa Cruz de Tenerife,Spain,22%
+232,Halifax,Canada,22%
+233,Preston,United Kingdom,22%
+234,Denver,United States Of America,22%
+235,Kiel,Germany,21%
+236,Pescara,Italy,21%
+237,Freiburg,Germany,21%
+238,Cape Coral-Fort Myers,United States Of America,21%
+239,Pittsburgh,United States Of America,21%
+240,Oslo,Norway,21%
+241,Copenhagen,Denmark,21%
+242,New Orleans,United States Of America,21%
+243,Aarhus,Denmark,21%
+244,Dusseldorf,Germany,21%
+245,Karlsruhe,Germany,21%
+246,Las Vegas,United States Of America,21%
+247,Eindhoven,Netherlands,21%
+248,Christchurch,New Zealand,21%
+249,Brasilia,Brazil,21%
+250,Hobart,Australia,21%
+251,Utrecht,Netherlands,21%
+252,Boise,United States Of America,21%
+253,Quebec,Canada,21%
+254,Le Havre,France,21%
+255,Saint-Etienne,France,21%
+256,Bern,Switzerland,20%
+257,Ruhr region east,Germany,20%
+258,Uppsala,Sweden,20%
+259,Fresno,United States Of America,20%
+260,Ghent,Belgium,20%
+261,East London,South Africa,20%
+262,Nancy,France,20%
+263,Seville,Spain,20%
+264,Bielsko-Biala,Poland,20%
+265,Livorno,Italy,20%
+266,Munster,Germany,20%
+267,Liege,Belgium,20%
+268,Avignon,France,20%
+269,Newcastle,Australia,20%
+270,Amersfoort,Netherlands,20%
+271,Trieste,Italy,20%
+272,Jeddah,Saudi Arabia,20%
+273,Perth,Australia,20%
+274,Tilburg,Netherlands,20%
+275,Augsburg,Germany,20%
+276,Breda,Netherlands,20%
+277,Innsbruck,Austria,20%
+278,Helsinki,Finland,20%
+279,Suzhou,China,20%
+280,Monchengladbach,Germany,20%
+281,Verona,Italy,20%
+282,Baltimore,United States Of America,20%
+283,Dunedin,New Zealand,19%
+284,Wuxi,China,19%
+285,Middlesbrough,United Kingdom,19%
+286,Taranto,Italy,19%
+287,Konya,Turkey,19%
+288,Tucson,United States Of America,19%
+289,Mannheim,Germany,19%
+290,Orleans,France,19%
+291,A Coruna,Spain,19%
+292,Valencia,Spain,19%
+293,Providence,United States Of America,19%
+294,Linz,Austria,19%
+295,Malaga,Spain,19%
+296,Murcia,Spain,18%
+297,Charlotte,United States Of America,18%
+298,Tauranga,New Zealand,18%
+299,Dallas-Fort Worth,United States Of America,18%
+300,Hamilton,Canada,18%
+301,Kayseri,Turkey,18%
+302,Calgary,Canada,18%
+303,Gothenburg,Sweden,18%
+304,Kortrijk,Belgium,18%
+305,Apeldoorn,Netherlands,18%
+306,Oxnard-Thousand Oaks-Ventura,United States Of America,18%
+307,Bakersfield,United States Of America,18%
+308,Durban,South Africa,18%
+309,Reykjavik,Iceland,18%
+310,Turku,Finland,18%
+311,Greenville,United States Of America,18%
+312,Canberra,Australia,18%
+313,Las Palmas,Spain,18%
+314,Jacksonville,United States Of America,17%
+315,Detroit,United States Of America,17%
+316,Trondheim,Norway,17%
+317,Albuquerque,United States Of America,17%
+318,Le Mans,France,17%
+319,Columbus,United States Of America,17%
+320,Ostrava,Czech Republic,17%
+321,San Antonio,United States Of America,17%
+322,Salt Lake City,United States Of America,17%
+323,Zwolle,Netherlands,17%
+324,Reggio Emilia,Italy,17%
+325,Dijon,France,17%
+326,Phoenix,United States Of America,17%
+327,Bielefeld,Germany,17%
+328,Ravenna,Italy,17%
+329,McAllen,United States Of America,17%
+330,Alicante,Spain,17%
+331,Raleigh,United States Of America,17%
+332,Santander,Spain,17%
+333,Katowice urban area,Poland,16%
+334,Wuppertal,Germany,16%
+335,Virginia Beach,United States Of America,16%
+336,Funchal,Portugal,16%
+337,Reims,France,16%
+338,Hartford,United States Of America,16%
+339,Colorado Springs,United States Of America,16%
+340,Birmingham,United States Of America,16%
+341,Den Bosch,Netherlands,16%
+342,Braga,Portugal,16%
+343,Mons,Belgium,16%
+344,Odense,Denmark,16%
+345,Edmonton,Canada,16%
+346,New Haven,United States Of America,16%
+347,Louisville,United States Of America,16%
+348,Padua,Italy,16%
+349,Parma,Italy,16%
+350,Minneapolis,United States Of America,16%
+351,Tours,France,15%
+352,Cincinnati,United States Of America,15%
+353,Pamplona,Spain,15%
+354,El Paso,United States Of America,15%
+355,Stavanger,Norway,15%
+356,Bruges,Belgium,15%
+357,Gijon,Spain,15%
+358,Bergen,Norway,15%
+359,Allentown,United States Of America,15%
+360,Buffalo,United States Of America,15%
+361,Modena,Italy,15%
+362,Cordoba,Spain,15%
+363,Malmo,Sweden,15%
+364,Tampere,Finland,15%
+365,Memphis,United States Of America,14%
+366,Worcester,United States Of America,14%
+367,Kitchener-Waterloo,Canada,14%
+368,Grand Rapids,United States Of America,14%
+369,Albany,United States Of America,14%
+370,St. Louis,United States Of America,14%
+371,Coimbra,Portugal,14%
+372,Zaragoza,Spain,14%
+373,Brescia,Italy,14%
+374,Milwaukee,United States Of America,14%
+375,Omaha-Council Bluffs,United States Of America,14%
+376,Vitoria-Gasteiz,Spain,14%
+377,Vigo,Spain,13%
+378,Cartagena,Spain,13%
+379,Indianapolis,United States Of America,13%
+380,Rochester,United States Of America,13%
+381,Columbia,United States Of America,13%
+382,Valladolid,Spain,13%
+383,Wollongong,Australia,13%
+384,Oklahoma City,United States Of America,13%
+385,Bilbao,Spain,13%
+386,Cleveland,United States Of America,13%
+387,Oviedo,Spain,13%
+388,San Sebastian,Spain,12%
+389,Tulsa,United States Of America,12%
+390,Charleroi,Belgium,12%
+391,Bloemfontein,South Africa,12%
+392,Kansas City,United States Of America,12%
+393,Knoxville,United States Of America,12%
+394,Almere,Netherlands,12%
+395,Richmond,United States Of America,11%
+396,Abu Dhabi,United Arab Emirates,11%
+397,Winston-Salem,United States Of America,10%
+398,Dayton,United States Of America,10%
+399,Little Rock,United States Of America,10%
+400,Syracuse,United States Of America,10%
+401,Akron,United States Of America,10%
+402,Cadiz,Spain,9%
+403,Greensboro-High Point,United States Of America,9%
