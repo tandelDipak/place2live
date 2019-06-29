@@ -1,16 +1,19 @@
 # -*- coding: utf-8 -*-
-import scrapy
+# TODO Add documentation to this module (traffic)
+from scrapy import Spider
 from scrapy.loader import ItemLoader
 from traffic_index.items import TrafficIndexItem
 
 
-class TrafficSpider(scrapy.Spider):
+class TrafficSpider(Spider):
+    # TODO Add documentation for this class(TrafficSpider) and parse function
     name = "traffic"
     allowed_domains = ["tomtom.com"]
     start_urls = ["https://www.tomtom.com/en_gb/traffic-index/ranking/"]
 
     def parse(self, response):
-        xpath_selector = "//*[@id='RankingPage-table']//table//tr/td[{}]"
+        # Base XPath for extract need values
+        xpath_selector = "//div[@id='RankingPage-table']//td[{}]"
         world_ranks = response.xpath(xpath_selector.format(1)).getall()
         cities = response.xpath(xpath_selector.format(3)).getall()
         countries = response.xpath(xpath_selector.format(4)).getall()

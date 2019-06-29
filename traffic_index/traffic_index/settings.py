@@ -99,4 +99,4 @@ FEED_EXPORT_FIELDS = (
 
 LOG_LEVEL = "INFO"
 FEED_FORMAT = "csv"
-FEED_URI = "output/list_of_countries.csv"
+FEED_URI = "output/traffic_index.csv"
