@@ -3,6 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/18c3e844245a2585f912/maintainability)](https://codeclimate.com/github/serhii73/place_to_live/maintainability)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![GitHub stars](https://img.shields.io/github/stars/serhii73/place_to_live.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/serhii73/place_to_live/stargazers/)
+![GitHub forks](https://img.shields.io/github/forks/serhii73/place_to_live.svg?style=social)
 [![GitHub contributors](https://img.shields.io/github/contributors/serhii73/place_to_live.svg)](https://GitHub.com/serhii73/place_to_live/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/serhii73/place_to_live.svg)](https://GitHub.com/serhii73/place_to_live/issues/)
 
