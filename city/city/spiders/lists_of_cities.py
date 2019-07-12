@@ -5,6 +5,7 @@ import re
 
 import requests
 from bs4 import BeautifulSoup
+
 from scrapy import Spider
 from scrapy.loader import ItemLoader
 

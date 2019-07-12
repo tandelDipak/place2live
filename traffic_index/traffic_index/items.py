@@ -12,7 +12,7 @@ from w3lib.html import remove_tags
 
 def parse_string(value):
     end = value.index("%")
-    return value[:end + 1]
+    return value[: end + 1]
 
 
 def strip_string(value):
