@@ -1,11 +1,13 @@
-[![Build Status](https://travis-ci.org/serhii73/place2live.svg?branch=master)](https://travis-ci.org/serhii73/place2live)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/serhii73/place2live/graphs/commit-activity)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![made-with-python](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+[![GitHub contributors](https://img.shields.io/github/contributors/serhii73/place2live.svg)](https://GitHub.com/serhii73/place2live/graphs/contributors/)
+[![GitHub stars](https://img.shields.io/github/stars/serhii73/place2live.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/serhii73/place2live/stargazers/)
+![GitHub forks](https://img.shields.io/github/forks/serhii73/place2live.svg?style=social)
+[![GitHub issues](https://img.shields.io/github/issues/serhii73/place2live.svg)](https://GitHub.com/serhii73/place2live/issues/)
+[![Build Status](https://travis-ci.org/serhii73/place2live.svg?branch=master)](https://travis-ci.org/serhii73/place2live)
 [![Maintainability](https://api.codeclimate.com/v1/badges/18c3e844245a2585f912/maintainability)](https://codeclimate.com/github/serhii73/place2live/maintainability)
 [![BCH compliance](https://bettercodehub.com/edge/badge/serhii73/place2live?branch=master)](https://bettercodehub.com/)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![GitHub stars](https://img.shields.io/github/stars/serhii73/place2live.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/serhii73/place2live/stargazers/)
-[![GitHub contributors](https://img.shields.io/github/contributors/serhii73/place2live.svg)](https://GitHub.com/serhii73/place2live/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/serhii73/place2live.svg)](https://GitHub.com/serhii73/place2live/issues/)
 
 This project is about countries with the high quality of life.
 The analysis is performed based on [numbeo's](https://www.numbeo.com) data.
