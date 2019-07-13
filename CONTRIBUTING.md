@@ -1,4 +1,4 @@
-# Contributing to [place_to_live project](https://github.com/serhii73/place_to_live)
+# Contributing to [place2live project](https://github.com/serhii73/place2live)
 
 ## How Can I Contribute?
 1. Please read this article - [https://guides.github.com/activities/forking/](https://guides.github.com/activities/forking/)
