@@ -8,6 +8,8 @@
 [![Build Status](https://travis-ci.org/serhii73/place2live.svg?branch=master)](https://travis-ci.org/serhii73/place2live)
 [![Maintainability](https://api.codeclimate.com/v1/badges/18c3e844245a2585f912/maintainability)](https://codeclimate.com/github/serhii73/place2live/maintainability)
 [![BCH compliance](https://bettercodehub.com/edge/badge/serhii73/place2live?branch=master)](https://bettercodehub.com/)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/serhii73/place2live.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/serhii73/place2live/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/serhii73/place2live.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/serhii73/place2live/context:python)
 
 This project is about countries with the high quality of life.
 The analysis is performed based on [numbeo's](https://www.numbeo.com) data.
