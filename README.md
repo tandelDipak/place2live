@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/64ddc9cc228b4fc485f0d08a55f41977)](https://app.codacy.com/app/serhii73/place2live?utm_source=github.com&utm_medium=referral&utm_content=serhii73/place2live&utm_campaign=Badge_Grade_Dashboard)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/serhii73/place2live/graphs/commit-activity)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![made-with-python](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
