@@ -117,7 +117,7 @@ out_df = df[df.purchasing_power_index > your_purchasing_power_index][
 ]
 print_out_df = out_df[
     ["country", "freedomhouse_score", "quality_of_life_index"]
-].dropna()
+].dropna().sort_values(by=['freedomhouse_score'], ascending=False)
 
 if print_out_df.empty:
     print(f"There is no country better than {your_country}.")
