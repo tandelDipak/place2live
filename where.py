@@ -102,19 +102,17 @@ your_traffic_commute_time_index = float(your_traffic_commute_time_index)
 your_pollution_index = float(your_pollution_index)
 your_climate_index = float(your_climate_index)
 
-out_df = df[df.purchasing_power_index > your_purchasing_power_index][
-    df.safety_index > your_safety_index
-][df.health_care_index > your_health_care_index][
-    df.cost_of_living_index < your_cost_of_living_index
-][
-    df.property_price_to_income_ratio < your_property_price_to_income_ratio
-][
-    df.traffic_commute_time_index < your_traffic_commute_time_index
-][
-    df.pollution_index < your_pollution_index
-][
-    df.climate_index > your_climate_index
-]
+out_df = df[(df.purchasing_power_index > your_purchasing_power_index) &
+            (df.safety_index > your_safety_index) &
+            (df.health_care_index > your_health_care_index) &
+            (df.cost_of_living_index < your_cost_of_living_index) &
+            (df.property_price_to_income_ratio <
+                your_property_price_to_income_ratio) &
+            (df.traffic_commute_time_index <
+                your_traffic_commute_time_index) &
+            (df.pollution_index < your_pollution_index) &
+            (df.climate_index > your_climate_index)]
+
 print_out_df = out_df[
     ["country", "freedomhouse_score", "quality_of_life_index"]
 ].dropna().sort_values(by=['freedomhouse_score'], ascending=False)
