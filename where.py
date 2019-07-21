@@ -5,7 +5,7 @@ df = pd.read_csv("city/output/list_of_countries.csv")
 
 your_country = input("What is your country? ")
 your_country = your_country.lower()
-your_country = your_country.capitalize()
+your_country = your_country.title()
 
 your_purchasing_power_index = float(
     df[df.country == your_country]["purchasing_power_index"]
