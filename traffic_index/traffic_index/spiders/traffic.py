@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # TODO Add documentation to this module (traffic)
 from scrapy import Spider
 from scrapy.loader import ItemLoader

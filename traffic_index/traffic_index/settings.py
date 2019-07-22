@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 # Scrapy settings for traffic_index project
 #
 # For simplicity, this file contains only settings considered important or
