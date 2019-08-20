@@ -6,21 +6,24 @@ your_country = input("What is your country? ")
 your_country = your_country.lower()
 your_country = your_country.title()
 
-your_purchasing_power_index = float(
-    df[df.country == your_country]["purchasing_power_index"]
-)
-print(f"In your country purchasing power index is {your_purchasing_power_index}")
-your_purchasing_power_index = (
-    float(input("What is your desirable purchasing power index (higher is better)? "))
-    or your_purchasing_power_index
-)
 
-your_safety_index = float(df[df.country == your_country]["safety_index"])
-print(f"In your country safety index is {your_safety_index}")
-your_safety_index = (
-    float(input("What is your desirable safety index (higher is better)? "))
-    or your_safety_index
-)
+def purchase_power():
+    your_purchasing_power_index = float(
+        df[df.country == your_country]["purchasing_power_index"]
+    )
+    print(f"In your country purchasing power index is {your_purchasing_power_index}")
+    your_purchasing_power_index = (
+        float(input("What is your desirable purchasing power index (higher is betterr)? "))
+        or your_purchasing_power_index
+    )
+
+def safety_index():
+    your_safety_index = float(df[df.country == your_country]["safety_index"])
+    print(f"In your country safety index is {your_safety_index}")
+    your_safety_index = (
+        float(input("What is your desirable safety index (higher is better)? "))
+        or your_safety_index
+    )
 
 your_health_care_index = float(df[df.country == your_country]["health_care_index"])
 print(f"In your country health care index is {your_health_care_index}")
