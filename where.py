@@ -45,7 +45,7 @@ def purchase_power_func():
             "What is your desirable "
             "purchasing power index (higher is better)? ")
         )
-        if type(_value_checker(index_input)) == float:
+        if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_purchasing_power_index
@@ -65,7 +65,7 @@ def safety_func():
         index_input = (input(
             "What is your desirable safety index (higher is better)? ")
         )
-        if type(_value_checker(index_input)) == float:
+        if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_safety_index
@@ -85,7 +85,7 @@ def health_care_func():
         index_input = (input(
             "What is your desirable health care index (higher is better)? ")
         )
-        if type(_value_checker(index_input)) == float:
+        if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_health_care_index
@@ -105,7 +105,7 @@ def climate_func():
         index_input = (input(
             "What is your desirable climate index (higher is better)? ")
         )
-        if type(_value_checker(index_input)) == float:
+        if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_climate_index
@@ -127,7 +127,7 @@ def cost_of_living_func():
             "What is your desirable cost of "
             "living index (lower is better)? ")
         )
-        if type(_value_checker(index_input)) == float:
+        if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_cost_of_living_index
@@ -149,7 +149,7 @@ def property_price_to_income_ratio_func():
             "What is your desirable house price "
             "to income ratio (lower is better)? ")
         )
-        if type(_value_checker(index_input)) == float:
+        if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_property_price_to_income_ratio
@@ -171,7 +171,7 @@ def traffic_commute_time_func():
             "What is your desirable traffic commute "
             "time index (lower is better)? ")
         )
-        if type(_value_checker(index_input)) == float:
+        if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_traffic_commute_time_index
@@ -191,7 +191,7 @@ def pollution_func():
         index_input = (input(
             "What is your desirable pollution index (lower is better)? ")
         )
-        if type(_value_checker(index_input)) == float:
+        if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_pollution_index
