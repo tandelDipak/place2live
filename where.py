@@ -24,21 +24,20 @@ def _value_checker(index_input):
     """Helper function to input check the main index functions"""
     if index_input == '':   # empty string, default index
         return "default"
-    else:
-        try:
-            return float(index_input)
-        except ValueError:
-            return False
+    try:
+        return float(index_input)
+    except ValueError:
+        return False
 
 
-def purchase_power():
+def purchase_power_func():
     """finds your purchase power index"""
-    purchasing_power_index = float(
+    country_purchasing_power_index = float(
         df[df.country == YOUR_COUNTRY]["purchasing_power_index"]
     )
     print(
         f"In your country purchasing power "
-        f"index is {purchasing_power_index}"
+        f"index is {country_purchasing_power_index}"
     )
 
     while True:
@@ -49,18 +48,17 @@ def purchase_power():
         if type(_value_checker(index_input)) == float:
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
-            return purchasing_power_index
-        else:
-            print(f"'{index_input}' is an invalid index. Please try again.")
+            return country_purchasing_power_index
+        print(f"'{index_input}' is an invalid index. Please try again.")
 
 
-def safety_index():
+def safety_func():
     """finds your safety index"""
-    safety_index = float(
+    country_safety_index = float(
         df[df.country == YOUR_COUNTRY]["safety_index"]
     )
     print(
-        f"In your country safety index is {safety_index}"
+        f"In your country safety index is {country_safety_index}"
     )
 
     while True:
@@ -70,18 +68,17 @@ def safety_index():
         if type(_value_checker(index_input)) == float:
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
-            return safety_index
-        else:
-            print(f"'{index_input}' is an invalid index. Please try again.")
+            return country_safety_index
+        print(f"'{index_input}' is an invalid index. Please try again.")
 
 
-def health_care_index():
+def health_care_func():
     """finds your health care index"""
-    health_care_index = float(
+    country_health_care_index = float(
         df[df.country == YOUR_COUNTRY]["health_care_index"]
     )
     print(
-        f"In your country health care index is {health_care_index}"
+        f"In your country health care index is {country_health_care_index}"
     )
 
     while True:
@@ -91,18 +88,17 @@ def health_care_index():
         if type(_value_checker(index_input)) == float:
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
-            return health_care_index
-        else:
-            print(f"'{index_input}' is an invalid index. Please try again.")
+            return country_health_care_index
+        print(f"'{index_input}' is an invalid index. Please try again.")
 
 
-def climate_index():
+def climate_func():
     """finds your climate index"""
-    climate_index = float(
+    country_climate_index = float(
         df[df.country == YOUR_COUNTRY]["climate_index"]
     )
     print(
-        f"In your country climate index is {climate_index}"
+        f"In your country climate index is {country_climate_index}"
     )
 
     while True:
@@ -112,19 +108,18 @@ def climate_index():
         if type(_value_checker(index_input)) == float:
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
-            return climate_index
-        else:
-            print(f"'{index_input}' is an invalid index. Please try again.")
+            return country_climate_index
+        print(f"'{index_input}' is an invalid index. Please try again.")
 
 
-def cost_of_living_index():
+def cost_of_living_func():
     """finds your cost of living index"""
-    cost_of_living_index = float(
+    country_cost_of_living_index = float(
         df[df.country == YOUR_COUNTRY]["cost_of_living_index"]
     )
     print(
         f"In your country cost of living "
-        f"index is {cost_of_living_index}"
+        f"index is {country_cost_of_living_index}"
     )
 
     while True:
@@ -135,19 +130,18 @@ def cost_of_living_index():
         if type(_value_checker(index_input)) == float:
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
-            return cost_of_living_index
-        else:
-            print(f"'{index_input}' is an invalid index. Please try again.")
+            return country_cost_of_living_index
+        print(f"'{index_input}' is an invalid index. Please try again.")
 
 
-def property_price_to_income_ratio():
+def property_price_to_income_ratio_func():
     """finds your property price to income ratio index"""
-    property_price_to_income_ratio = float(
+    country_property_price_to_income_ratio = float(
         df[df.country == YOUR_COUNTRY]["property_price_to_income_ratio"]
     )
     print(
         f"In your country house price to "
-        f"income ratio index is {property_price_to_income_ratio}"
+        f"income ratio index is {country_property_price_to_income_ratio}"
     )
 
     while True:
@@ -158,19 +152,18 @@ def property_price_to_income_ratio():
         if type(_value_checker(index_input)) == float:
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
-            return property_price_to_income_ratio
-        else:
-            print(f"'{index_input}' is an invalid index. Please try again.")
+            return country_property_price_to_income_ratio
+        print(f"'{index_input}' is an invalid index. Please try again.")
 
 
-def traffic_commute_time_index():
+def traffic_commute_time_func():
     """finds your traffic commute time index"""
-    traffic_commute_time_index = float(
+    country_traffic_commute_time_index = float(
         df[df.country == YOUR_COUNTRY]["traffic_commute_time_index"]
     )
     print(
-        f"In your country traffic commute time " 
-        f"index is {traffic_commute_time_index}"
+        f"In your country traffic commute time "
+        f"index is {country_traffic_commute_time_index}"
     )
 
     while True:
@@ -181,18 +174,17 @@ def traffic_commute_time_index():
         if type(_value_checker(index_input)) == float:
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
-            return traffic_commute_time_index
-        else:
-            print(f"'{index_input}' is an invalid index. Please try again.")
+            return country_traffic_commute_time_index
+        print(f"'{index_input}' is an invalid index. Please try again.")
 
 
-def pollution_index():
+def pollution_func():
     """finds your pollution index"""
-    pollution_index = float(
+    country_pollution_index = float(
         df[df.country == YOUR_COUNTRY]["pollution_index"]
     )
     print(
-        f"In your country pollution index is {pollution_index}"
+        f"In your country pollution index is {country_pollution_index}"
     )
 
     while True:
@@ -202,9 +194,8 @@ def pollution_index():
         if type(_value_checker(index_input)) == float:
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
-            return pollution_index
-        else:
-            print(f"'{index_input}' is an invalid index. Please try again.")
+            return country_pollution_index
+        print(f"'{index_input}' is an invalid index. Please try again.")
 
 
 values = {
@@ -220,14 +211,14 @@ values = {
 df = df.fillna(value=values)
 
 
-your_purchasing_power_index = float(purchase_power())
-your_safety_index = float(safety_index())
-your_health_care_index = float(health_care_index())
-your_climate_index = float(climate_index())
-your_cost_of_living_index = float(cost_of_living_index())
-your_property_price_to_income_ratio = float(property_price_to_income_ratio())
-your_traffic_commute_time_index = float(traffic_commute_time_index())
-your_pollution_index = float(pollution_index())
+your_purchasing_power_index = float(purchase_power_func())
+your_safety_index = float(safety_func())
+your_health_care_index = float(health_care_func())
+your_climate_index = float(climate_func())
+your_cost_of_living_index = float(cost_of_living_func())
+your_property_price_to_income_ratio = float(property_price_to_income_ratio_func())
+your_traffic_commute_time_index = float(traffic_commute_time_func())
+your_pollution_index = float(pollution_func())
 
 
 out_df = df[(df.purchasing_power_index > your_purchasing_power_index) &
