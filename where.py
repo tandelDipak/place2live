@@ -8,12 +8,12 @@ def run_country_checker():
     while True:
         try:
             country = input("What is your country? ")
+            country = country.lower()
+            country = country.title()
             float(df[df.country == country]["purchasing_power_index"])
         except TypeError:
             print(f"'{country}' is an invalid country. Please try again.")
         else:
-            country = country.lower()
-            country = country.title()
             return country
 
 
@@ -211,33 +211,34 @@ values = {
 df = df.fillna(value=values)
 
 
-your_purchasing_power_index = float(purchase_power_func())
-your_safety_index = float(safety_func())
-your_health_care_index = float(health_care_func())
-your_climate_index = float(climate_func())
-your_cost_of_living_index = float(cost_of_living_func())
-your_property_price_to_income_ratio = float(property_price_to_income_ratio_func())
-your_traffic_commute_time_index = float(traffic_commute_time_func())
-your_pollution_index = float(pollution_func())
+if __name__ == "__main__":
+    your_purchasing_power_index = float(purchase_power_func())
+    your_safety_index = float(safety_func())
+    your_health_care_index = float(health_care_func())
+    your_climate_index = float(climate_func())
+    your_cost_of_living_index = float(cost_of_living_func())
+    your_property_price_to_income_ratio = float(property_price_to_income_ratio_func())
+    your_traffic_commute_time_index = float(traffic_commute_time_func())
+    your_pollution_index = float(pollution_func())
 
 
-out_df = df[(df.purchasing_power_index > your_purchasing_power_index) &
-            (df.safety_index > your_safety_index) &
-            (df.health_care_index > your_health_care_index) &
-            (df.cost_of_living_index < your_cost_of_living_index) &
-            (df.property_price_to_income_ratio <
-                your_property_price_to_income_ratio) &
-            (df.traffic_commute_time_index <
-                your_traffic_commute_time_index) &
-            (df.pollution_index < your_pollution_index) &
-            (df.climate_index > your_climate_index)]
+    out_df = df[(df.purchasing_power_index > your_purchasing_power_index) &
+                (df.safety_index > your_safety_index) &
+                (df.health_care_index > your_health_care_index) &
+                (df.cost_of_living_index < your_cost_of_living_index) &
+                (df.property_price_to_income_ratio <
+                    your_property_price_to_income_ratio) &
+                (df.traffic_commute_time_index <
+                    your_traffic_commute_time_index) &
+                (df.pollution_index < your_pollution_index) &
+                (df.climate_index > your_climate_index)]
 
-print_out_df = out_df[
-    ["country", "freedomhouse_score", "quality_of_life_index"]
-].dropna().sort_values(by=['freedomhouse_score'], ascending=False)
+    print_out_df = out_df[
+        ["country", "freedomhouse_score", "quality_of_life_index"]
+    ].dropna().sort_values(by=['freedomhouse_score'], ascending=False)
 
-if print_out_df.empty:
-    print(f"There is no country better than {YOUR_COUNTRY}.")
-else:
-    with pd.option_context("display.max_rows", None, "display.max_columns", None):
-        print(print_out_df)
+    if print_out_df.empty:
+        print(f"There is no country better than {YOUR_COUNTRY}.")
+    else:
+        with pd.option_context("display.max_rows", None, "display.max_columns", None):
+            print(print_out_df)
