@@ -221,7 +221,6 @@ if __name__ == "__main__":
     your_traffic_commute_time_index = float(traffic_commute_time_func())
     your_pollution_index = float(pollution_func())
 
-
     out_df = df[(df.purchasing_power_index > your_purchasing_power_index) &
                 (df.safety_index > your_safety_index) &
                 (df.health_care_index > your_health_care_index) &
