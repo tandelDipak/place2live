@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 df = pd.read_csv("city/output/list_of_countries.csv")
 
 
@@ -20,9 +21,43 @@ def run_country_checker():
 YOUR_COUNTRY = run_country_checker()
 
 
+def max_min_index(name_index):
+    """Return maximum and minimum value with country of a column from df."""
+    country_and_name = df[['country', name_index]]
+    counrties_in_name_index = country_and_name.sort_values(name_index).dropna()
+    min_value = [list(counrties_in_name_index[name_index])[0],
+                 list(counrties_in_name_index['country'])[0]]
+    max_value = [list(counrties_in_name_index[name_index])[-1],
+                 list(counrties_in_name_index['country'])[-1]]
+    return max_value, min_value
+
+
+def print_question(name_index, max_min_value, mood):
+    """
+    Return a question that asks the user about the status of a factor
+    in his country, also displays the maximum and minimum value of this factor
+    in the world.
+    """
+    if mood == 'higher is better':
+        first_value = max_min_value[0]
+        second_value = max_min_value[1]
+    elif mood == 'lower is better':
+        first_value = max_min_value[1]
+        second_value = max_min_value[0]
+    message = (
+        f"What is your desirable {name_index} ({mood})? "
+        f"The best score in the world is "
+        f"{first_value[0]} "
+        f"({first_value[1]}), "
+        f"the worst is {second_value[0]} "
+        f"({second_value[1]}) "
+    )
+    return message
+
+
 def _value_checker(index_input):
     """Helper function to input check the main index functions"""
-    if index_input == '':   # empty string, default index
+    if index_input == '':  # empty string, default index
         return "default"
     try:
         return float(index_input)
@@ -42,9 +77,9 @@ def purchase_power_func():
 
     while True:
         index_input = (input(
-            "What is your desirable "
-            "purchasing power index (higher is better)? ")
-        )
+            print_question('purchasing power index', max_min_purchasing,
+                           'higher is better'))
+                       )
         if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
@@ -63,7 +98,7 @@ def safety_func():
 
     while True:
         index_input = (input(
-            "What is your desirable safety index (higher is better)? ")
+            print_question('safety index', max_min_safety, 'higher is better'))
         )
         if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
@@ -83,7 +118,9 @@ def health_care_func():
 
     while True:
         index_input = (input(
-            "What is your desirable health care index (higher is better)? ")
+            print_question('health care index', max_min_health,
+                           mood='higher is better')
+            )
         )
         if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
@@ -103,7 +140,9 @@ def climate_func():
 
     while True:
         index_input = (input(
-            "What is your desirable climate index (higher is better)? ")
+            print_question('climate index', max_min_climate,
+                           'higher is better')
+        )
         )
         if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
@@ -124,8 +163,9 @@ def cost_of_living_func():
 
     while True:
         index_input = (input(
-            "What is your desirable cost of "
-            "living index (lower is better)? ")
+            print_question('cost of living index', max_min_cost,
+                           'lower is better')
+            )
         )
         if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
@@ -146,8 +186,9 @@ def property_price_to_income_ratio_func():
 
     while True:
         index_input = (input(
-            "What is your desirable house price "
-            "to income ratio (lower is better)? ")
+            print_question('property price to income ratio', max_min_property,
+                           'lower is better')
+        )
         )
         if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
@@ -168,8 +209,9 @@ def traffic_commute_time_func():
 
     while True:
         index_input = (input(
-            "What is your desirable traffic commute "
-            "time index (lower is better)? ")
+            print_question('traffic commute time index', max_min_traffic,
+                           'lower is better')
+        )
         )
         if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
@@ -189,7 +231,9 @@ def pollution_func():
 
     while True:
         index_input = (input(
-            "What is your desirable pollution index (lower is better)? ")
+            print_question('pollution index', max_min_pollution,
+                           'lower is better')
+        )
         )
         if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
@@ -210,14 +254,23 @@ values = {
 }
 df = df.fillna(value=values)
 
-
 if __name__ == "__main__":
+    max_min_purchasing = max_min_index('purchasing_power_index')
+    max_min_safety = max_min_index('safety_index')
+    max_min_health = max_min_index('health_care_index')
+    max_min_cost = max_min_index('cost_of_living_index')
+    max_min_property = max_min_index('property_price_to_income_ratio')
+    max_min_traffic = max_min_index('traffic_commute_time_index')
+    max_min_pollution = max_min_index('pollution_index')
+    max_min_climate = max_min_index('climate_index')
     your_purchasing_power_index = float(purchase_power_func())
     your_safety_index = float(safety_func())
     your_health_care_index = float(health_care_func())
     your_climate_index = float(climate_func())
     your_cost_of_living_index = float(cost_of_living_func())
-    your_property_price_to_income_ratio = float(property_price_to_income_ratio_func())
+    your_property_price_to_income_ratio = float(
+        property_price_to_income_ratio_func()
+        )
     your_traffic_commute_time_index = float(traffic_commute_time_func())
     your_pollution_index = float(pollution_func())
 
@@ -239,5 +292,6 @@ if __name__ == "__main__":
     if print_out_df.empty:
         print(f"There is no country better than {YOUR_COUNTRY}.")
     else:
-        with pd.option_context("display.max_rows", None, "display.max_columns", None):
+        with pd.option_context("display.max_rows", None, "display.max_columns",
+                               None):
             print(print_out_df)
