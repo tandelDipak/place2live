@@ -38,3 +38,5 @@ Want to see where the quality of life is higher?
 2. [Create and activate the virtual environment](https://docs.python.org/3.7/library/venv.html)
 3. Install requirements for the project: `pip install -r requirements.txt`
 4. `python where.py`
+
+![run the script](./img/run_script.png)
