@@ -124,7 +124,7 @@ def health_care_func():
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_health_care_index
-        print(cf.red(f"'{index_input}' is an invalid index. Please try again."))
+        print(text_color(f"'{index_input}' is an invalid index. Please try again."), text_type.WARNING)
 
 
 def climate_func():
@@ -284,8 +284,8 @@ if __name__ == "__main__":
     ].dropna().sort_values(by=['freedomhouse_score'], ascending=False)
 
     if print_out_df.empty:
-        print(cf.magenta(f"There is no country better than {YOUR_COUNTRY}."))
+        print(text_color(f"There is no country better than {YOUR_COUNTRY}."), text_type.ANSWER)
     else:
         with pd.option_context("display.max_rows", None, "display.max_columns",
                                None):
-            print(text_color(print_out_df))
+            print(text_color(print_out_df, text_type.ANSWER))
