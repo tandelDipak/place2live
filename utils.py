@@ -1,10 +1,12 @@
 import colorful as cf
 from enum import Enum
 
+
 class text_type(Enum):
     WARNING = "warning"
     QUESTION = "question"
     ANSWER = "answer"
+
 
 def text_color(text, type=None):
     if type == text_type.WARNING:

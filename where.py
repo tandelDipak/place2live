@@ -9,12 +9,14 @@ def run_country_checker():
     """Checks for a valid country by checking df"""
     while True:
         try:
-            country = input(text_color("What is your country? ", text_type.QUESTION))
+            country = input(text_color(
+                "What is your country? ", text_type.QUESTION))
             country = country.lower()
             country = country.title()
             float(df[df.country == country]["purchasing_power_index"])
         except TypeError:
-            print(text_color(f"'{country}' is an invalid country. Please try again.", text_type.WARNING))
+            print(text_color(
+                f"'{country}' is an invalid country. Please try again.", text_type.WARNING))
         else:
             return country
 
@@ -84,7 +86,8 @@ def purchase_power_func():
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_purchasing_power_index
-        print(text_color(f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
+        print(text_color(
+            f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
 
 
 def safety_func():
@@ -103,7 +106,8 @@ def safety_func():
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_safety_index
-        print(text_color(f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
+        print(text_color(
+            f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
 
 
 def health_care_func():
@@ -118,13 +122,14 @@ def health_care_func():
         index_input = (input(
             print_question('health care index', max_min_health,
                            mood='higher is better')
-            )
+        )
         )
         if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_health_care_index
-        print(text_color(f"'{index_input}' is an invalid index. Please try again."), text_type.WARNING)
+        print(text_color(
+            f"'{index_input}' is an invalid index. Please try again."), text_type.WARNING)
 
 
 def climate_func():
@@ -146,7 +151,8 @@ def climate_func():
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_climate_index
-        print(text_color(f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
+        print(text_color(
+            f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
 
 
 def cost_of_living_func():
@@ -162,13 +168,14 @@ def cost_of_living_func():
         index_input = (input(
             print_question('cost of living index', max_min_cost,
                            'lower is better')
-            )
+        )
         )
         if isinstance(_value_checker(index_input), float):
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_cost_of_living_index
-        print(text_color(f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
+        print(text_color(
+            f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
 
 
 def property_price_to_income_ratio_func():
@@ -190,7 +197,8 @@ def property_price_to_income_ratio_func():
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_property_price_to_income_ratio
-        print(text_color(f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
+        print(text_color(
+            f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
 
 
 def traffic_commute_time_func():
@@ -212,7 +220,8 @@ def traffic_commute_time_func():
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_traffic_commute_time_index
-        print(text_color(f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
+        print(text_color(
+            f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
 
 
 def pollution_func():
@@ -233,7 +242,8 @@ def pollution_func():
             return _value_checker(index_input)
         elif _value_checker(index_input) == "default":
             return country_pollution_index
-        print(text_color(f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
+        print(text_color(
+            f"'{index_input}' is an invalid index. Please try again.", text_type.WARNING))
 
 
 values = {
@@ -264,7 +274,7 @@ if __name__ == "__main__":
     your_cost_of_living_index = float(cost_of_living_func())
     your_property_price_to_income_ratio = float(
         property_price_to_income_ratio_func()
-        )
+    )
     your_traffic_commute_time_index = float(traffic_commute_time_func())
     your_pollution_index = float(pollution_func())
 
@@ -284,7 +294,8 @@ if __name__ == "__main__":
     ].dropna().sort_values(by=['freedomhouse_score'], ascending=False)
 
     if print_out_df.empty:
-        print(text_color(f"There is no country better than {YOUR_COUNTRY}."), text_type.ANSWER)
+        print(text_color(
+            f"There is no country better than {YOUR_COUNTRY}."), text_type.ANSWER)
     else:
         with pd.option_context("display.max_rows", None, "display.max_columns",
                                None):
