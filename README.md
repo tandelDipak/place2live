@@ -14,13 +14,13 @@
 [![Python 3](https://pyup.io/repos/github/serhii73/place2live/python-3-shield.svg)](https://pyup.io/repos/github/serhii73/place2live/)
 [![Updates](https://pyup.io/repos/github/serhii73/place2live/shield.svg)](https://pyup.io/repos/github/serhii73/place2live/)
 
-This project is about countries with the high quality of life.
+This project gives you a list of countries with a higher quality of life.
 The analysis is performed based on [numbeo's](https://www.numbeo.com) data.
 Additionally, [freedomhouse's](https://freedomhouse.org) score for each country is included.
 
 1. [About Quality of Life Indices](https://www.numbeo.com/quality-of-life/indices_explained.jsp) -
 
-    Quality of Life Index (higher is better) is an estimation of overall quality of life by using an empirical formula which takes into account:
+    The Quality of Life Index (higher is better) is an estimation of overall quality of life by using an empirical formula which takes into account:
     1. [purchasing power index](https://www.numbeo.com/cost-of-living/cpi_explained.jsp) (higher is better)
     2. [safety index](https://www.numbeo.com/crime/indices_explained.jsp) (higher is better)
     3. [health care index](https://www.numbeo.com/health-care/indices_explained.jsp) (higher is better)
@@ -30,13 +30,15 @@ Additionally, [freedomhouse's](https://freedomhouse.org) score for each country 
     7. [traffic commute time index](https://www.numbeo.com/traffic/indices_explained.jsp) (lower is better)
     8. [pollution index](https://www.numbeo.com/pollution/indices_explained.jsp) (lower is better)
 
-2. [Freedomhouse](https://freedomhouse.org) aggregate Score (0=Least Free, 100=Most Free)
+2. Also integrated into the score is the [Freedomhouse](https://freedomhouse.org) aggregate Score (0=Least Free, 100=Most Free)
 
 Want to see where the quality of life is higher?
 
-1. Install [Python 3.7](https://www.python.org/)
-2. [Create and activate the virtual environment](https://docs.python.org/3.7/library/venv.html)
-3. Install requirements for the project: `pip install -r requirements.txt`
-4. `python where.py`
+1. Install [Python 3.7](https://www.python.org/). *Earlier versions will not work.*
+2. Create and activate the virtual environment: `python3 -m venv /path/to/new/virtual/environment`. The path can be any directory not currently in use. If you type a directory name that doesn't exist, one will be created. You can read more about it [here](https://docs.python.org/3.7/library/venv.html). 
+3. Install requirements `pip install -r requirements.txt`<br>These can be found in requirements.txt if you need to install them one-by-one. They include:
+    * pandas==0.25.1
+    * pre-commit==1.18.3
+4. `python where.py` will run the application.
 
 ![run the script](./img/run_script.png)
