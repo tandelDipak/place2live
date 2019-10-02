@@ -39,4 +39,12 @@ Want to see where the quality of life is higher?
 3. Install requirements for the project: `pip install -r requirements.txt`
 4. `python where.py`
 
+Note: if you run into a problem getting this to work, try the following at the command line (in the place2live directory):
+1. `python3 -m venv env`
+2. `source env/bin/activate`
+3. `pip install -r requirements.txt`
+4. `python where.py`
+
+Hopefully that will resolve the issue.
+
 ![run the script](./img/run_script.png)
