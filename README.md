@@ -35,7 +35,7 @@ Additionally, [freedomhouse's](https://freedomhouse.org) score for each country 
 Want to see where the quality of life is higher?
 
 1. Install [Python 3.7](https://www.python.org/). *Earlier versions will not work.*
-2. Create and activate the virtual environment: `python3 -m venv /path/to/new/virtual/environment`. The path can be any directory not currently in use. If you type a directory name that doesn't exist, one will be created. You can read more about it [here](https://docs.python.org/3.7/library/venv.html). 
+2. Create and activate the virtual environment: `python3 -m venv /path/to/new/virtual/environment`. The path can be any directory not currently in use. If you type a directory name that doesn't exist, one will be created. You can read more about it [here](https://docs.python.org/3.7/library/venv.html).
 3. Install requirements `pip install -r requirements.txt`<br>These can be found in requirements.txt if you need to install them one-by-one. They include:
     * pandas==0.25.1
     * pre-commit==1.18.3
