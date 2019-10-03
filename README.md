@@ -41,4 +41,12 @@ Want to see where the quality of life is higher?
     * pre-commit==1.18.3
 4. `python where.py` will run the application.
 
+Note: if you run into a problem getting this to work, try the following at the command line (in the place2live directory):
+1. `python3 -m venv env`
+2. `source env/bin/activate`
+3. `pip install -r requirements.txt`
+4. `python where.py`
+
+Hopefully that will resolve the issue.
+
 ![run the script](./img/run_script.png)
