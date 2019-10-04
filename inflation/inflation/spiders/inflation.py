@@ -9,7 +9,7 @@ def isRate(candidate):
     try:
         float(candidate)
         return True
-    except Exception:
+    except ValueError:
         return False
 
 
