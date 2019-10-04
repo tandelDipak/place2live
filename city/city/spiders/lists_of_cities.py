@@ -4,7 +4,6 @@ import re
 
 import requests
 from bs4 import BeautifulSoup
-
 from scrapy import Spider
 from scrapy.loader import ItemLoader
 
@@ -22,7 +21,7 @@ class CitySpider(Spider):
     def parse(self, response):
         """Scrape a list of countries and go each page."""
         for country_url in response.xpath(
-            "//a[contains(@href, 'ountry_result.jsp?country=')]/@href"
+            "//a[contains(@href, 'ountry_result.jsp?country=')]/@href",
         ).getall():
             yield response.follow(country_url, self.parse_item)
 
@@ -39,49 +38,49 @@ class CitySpider(Spider):
 
         purchasing_power_index = response.xpath(
             "//a[contains(text(), "
-            "'Purchasing Power Index')]/parent::td/following-sibling::td/text()"
+            "'Purchasing Power Index')]/parent::td/following-sibling::td/text()",
         ).extract_first()
         i.add_value("purchasing_power_index", purchasing_power_index)
 
         safety_index = response.xpath(
             "//a[contains(text(), "
-            "'Safety Index')]/parent::td/following-sibling::td/text()"
+            "'Safety Index')]/parent::td/following-sibling::td/text()",
         ).extract_first()
         i.add_value("safety_index", safety_index)
 
         health_care_index = response.xpath(
             "//a[contains(text(), "
-            "'Health Care Index')]/parent::td/following-sibling::td/text()"
+            "'Health Care Index')]/parent::td/following-sibling::td/text()",
         ).extract_first()
         i.add_value("health_care_index", health_care_index)
 
         climate_index = response.xpath(
             "//a[contains(text(), "
-            "'Climate Index')]/parent::td/following-sibling::td/text()"
+            "'Climate Index')]/parent::td/following-sibling::td/text()",
         ).extract_first()
         i.add_value("climate_index", climate_index)
 
         cost_of_living_index = response.xpath(
             "//a[contains(text(), "
-            "'Cost of Living Index')]/parent::td/following-sibling::td/text()"
+            "'Cost of Living Index')]/parent::td/following-sibling::td/text()",
         ).extract_first()
         i.add_value("cost_of_living_index", cost_of_living_index)
 
         property_price_to_income_ratio = response.xpath(
             "//a[contains(text(), "
-            "'Property Price to Income Ratio')]/parent::td/following-sibling::td/text()"
+            "'Property Price to Income Ratio')]/parent::td/following-sibling::td/text()",
         ).extract_first()
         i.add_value("property_price_to_income_ratio", property_price_to_income_ratio)
 
         traffic_commute_time_index = response.xpath(
             "//a[contains(text(), "
-            "'Traffic Commute Time Index')]/parent::td/following-sibling::td/text()"
+            "'Traffic Commute Time Index')]/parent::td/following-sibling::td/text()",
         ).extract_first()
         i.add_value("traffic_commute_time_index", traffic_commute_time_index)
 
         pollution_index = response.xpath(
             "//a[contains(text(), "
-            "'Pollution Index')]/parent::td/following-sibling::td/text()"
+            "'Pollution Index')]/parent::td/following-sibling::td/text()",
         ).extract_first()
         i.add_value("pollution_index", pollution_index)
 
@@ -92,7 +91,8 @@ class CitySpider(Spider):
             regex = r"Aggregate Score:(.{0,9})"
             reg = re.compile(regex)
             sc_dirty = reg.search(soup_text).group(1)
-            score = "".join([s for s in sc_dirty.split()[0] if s.isdigit()])
+            score = [s for s in sc_dirty.split()[0] if s.isdigit()]
+            score = "".join(score)
             score = float(score)
         except AttributeError:
             score = None

@@ -1,6 +1,7 @@
 # TODO Add documentation to this module (traffic)
 from scrapy import Spider
 from scrapy.loader import ItemLoader
+
 from traffic_index.items import TrafficIndexItem
 
 
@@ -18,7 +19,7 @@ class TrafficSpider(Spider):
         countries = response.xpath(xpath_selector.format(4)).getall()
         congestion_levels = response.xpath(xpath_selector.format(5)).getall()
         for rank, city, country, level in zip(
-            world_ranks, cities, countries, congestion_levels
+            world_ranks, cities, countries, congestion_levels,
         ):
             i = ItemLoader(item=TrafficIndexItem())
             i.add_value("world_rank", rank)

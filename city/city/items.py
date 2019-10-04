@@ -2,9 +2,10 @@
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
-
-from scrapy import Field, Item
-from scrapy.loader.processors import MapCompose, TakeFirst
+from scrapy import Field
+from scrapy import Item
+from scrapy.loader.processors import MapCompose
+from scrapy.loader.processors import TakeFirst
 
 __author__ = "aserhii@protonmail.com"
 

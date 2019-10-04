@@ -1,5 +1,6 @@
-import colorful as cf
 from enum import Enum
+
+import colorful as cf
 
 
 class text_type(Enum):
