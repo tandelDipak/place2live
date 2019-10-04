@@ -1,0 +1,231 @@
+Location,Rank,Region,Subregion,Rate,Count,Year
+Burundi,1,Africa,Eastern Africa,6.02,635,2016
+Comoros,2,Africa,Eastern Africa,7.70,60,2015
+Djibouti,3,Africa,Eastern Africa,6.48,60,2015
+Eritrea,4,Africa,Eastern Africa,8.04,390,2015
+Ethiopia,5,Africa,Eastern Africa,7.56,"7,552",2015
+Kenya,6,Africa,Eastern Africa,5.00,"2,466",2017
+Madagascar,7,Africa,Eastern Africa,7.69,"1,863",2015
+Malawi,8,Africa,Eastern Africa,1.73,279,2012
+Mauritius,9,Africa,Eastern Africa,1.82,23,2016
+Mayotte,10,Africa,Eastern Africa,5.93,12,2009
+Mozambique,11,Africa,Eastern Africa,3.40,849,2011
+Réunion,12,Africa,Eastern Africa,1.82,15,2009
+Rwanda,13,Africa,Eastern Africa,2.52,293,2015
+Seychelles,14,Africa,Eastern Africa,12.74,12,2016
+Somalia,15,Africa,Eastern Africa,4.31,599,2015
+South Sudan,16,Africa,Eastern Africa,13.90,"1,504",2012
+Uganda,17,Africa,Eastern Africa,11.00,"4,735",2017
+Tanzania,18,Africa,Eastern Africa,6.95,"3,746",2015
+Zambia,19,Africa,Eastern Africa,5.30,853,2015
+Zimbabwe,20,Africa,Eastern Africa,6.67,981,2012
+Angola,21,Africa,Middle Africa,4.85,"1,217",2012
+Cameroon,22,Africa,Middle Africa,1.40,341,2017
+Central African Republic,23,Africa,Middle Africa,19.76,913,2016
+Chad,24,Africa,Middle Africa,9.04,"1,266",2015
+Congo,25,Africa,Middle Africa,9.32,466,2015
+Democratic Republic of the Congo,26,Africa,Middle Africa,13.55,"10,322",2015
+Equatorial Guinea,27,Africa,Middle Africa,2.31,27,2015
+Gabon,28,Africa,Middle Africa,8.04,155,2015
+São Tomé and Príncipe,29,Africa,Middle Africa,3.36,6,2011
+Algeria,30,Africa,Northern Africa,1.36,542,2015
+Egypt,31,Africa,Northern Africa,2.51,"2,207",2012
+Libya,32,Africa,Northern Africa,2.50,156,2015
+Morocco,33,Africa,Northern Africa,2.10,761,2017
+Sudan,34,Africa,Northern Africa,5.16,"1,702",2008
+Tunisia,35,Africa,Northern Africa,3.05,332,2012
+Botswana,36,Africa,Southern Africa,15.04,303,2010
+Eswatini,37,Africa,Southern Africa,9.50,130,2017
+Lesotho,38,Africa,Southern Africa,41.25,897,2015
+Namibia,39,Africa,Southern Africa,17.14,388,2012
+South Africa,40,Africa,Southern Africa,35.90,"20,336",2017
+Benin,41,Africa,Western Africa,1.10,126,2017
+Burkina Faso,42,Africa,Western Africa,1.30,240,2017
+Cape Verde,43,Africa,Western Africa,11.49,62,2016
+Côte d'Ivoire,44,Africa,Western Africa,11.63,"2,688",2015
+Gambia,45,Africa,Western Africa,9.13,181,2015
+Ghana,46,Africa,Western Africa,2.10,609,2017
+Guinea,47,Africa,Western Africa,8.82,"1,067",2015
+Guinea-Bissau,48,Africa,Western Africa,1.10,21,2017
+Liberia,49,Africa,Western Africa,3.23,135,2012
+Mali,50,Africa,Western Africa,10.90,"1,905",2015
+Mauritania,51,Africa,Western Africa,9.94,416,2015
+Niger,52,Africa,Western Africa,4.44,788,2012
+Nigeria,53,Africa,Western Africa,9.85,"17,843",2015
+Saint Helena,54,Africa,Western Africa,0.00,0,2009
+Senegal,55,Africa,Western Africa,7.38,"1,105",2015
+Sierra Leone,56,Africa,Western Africa,1.71,124,2015
+Togo,57,Africa,Western Africa,9.00,668,2015
+Anguilla,58,Americas,Caribbean,27.66,4,2014
+Antigua and Barbuda,59,Americas,Caribbean,10.33,10,2012
+Aruba,60,Americas,Caribbean,1.93,2,2014
+Bahamas,61,Americas,Caribbean,30.90,122,2017
+Barbados,62,Americas,Caribbean,10.50,30,2017
+British Virgin Islands,63,Americas,Caribbean,8.37,2,2006
+Cayman Islands,64,Americas,Caribbean,8.45,5,2014
+Cuba,65,Americas,Caribbean,4.99,572,2016
+Curaçao,66,Americas,Caribbean,19.19,26,2007
+Dominica,67,Americas,Caribbean,25.70,19,2017
+Dominican Republic,68,Americas,Caribbean,11.30,"1,216",2017
+Grenada,69,Americas,Caribbean,11.10,12,2017
+Guadeloupe,70,Americas,Caribbean,8.01,36,2009
+Haiti,71,Americas,Caribbean,10.04,"1,033",2012
+Jamaica,72,Americas,Caribbean,57.00,"1,647",2017
+Martinique,73,Americas,Caribbean,6,17,2019
+Montserrat,74,Americas,Caribbean,19.88,1,2012
+Puerto Rico,75,Americas,Caribbean,18.50,679,2017
+Saint Kitts and Nevis,76,Americas,Caribbean,34.23,18,2012
+Saint Lucia,77,Americas,Caribbean,29.60,53,2017
+Saint Vincent and the Grenadines,78,Americas,Caribbean,36.46,40,2016
+Trinidad and Tobago,79,Americas,Caribbean,30.88,420,2015
+Turks and Caicos Islands,80,Americas,Caribbean,5.93,2,2014
+US Virgin Islands,81,Americas,Caribbean,49.26,52,2012
+Belize,82,Americas,Central America,37.90,142,2017
+Costa Rica,83,Americas,Central America,12.30,603,2017
+El Salvador,84,Americas,Central America,61.80,"3,942",2017
+Guatemala,85,Americas,Central America,26.10,"4,410",2017
+Honduras,86,Americas,Central America,41.70,"3,864",2017
+Mexico,87,Americas,Central America,24.80,"32,079",2017
+Nicaragua,88,Americas,Central America,7.37,453,2016
+Panama,89,Americas,Central America,9.70,397,2017
+Bermuda,90,Americas,Northern America,8.20,5,2017
+Canada,91,Americas,Northern America,1.80,660,2017
+Greenland,92,Americas,Northern America,5.31,3,2016
+Saint Pierre and Miquelon,93,Americas,Northern America,15.93,1,2009
+United States,94,Americas,Northern America,5.30,"17,284",2017
+Argentina,95,Americas,South America,5.10,"2,279",2017
+Bolivia,96,Americas,South America,6.30,686,2016
+Brazil,97,Americas,South America,30.50,"63,895",2017
+Chile,98,Americas,South America,4.30,779,2017
+Colombia,99,Americas,South America,24.90,"12,237",2017
+Ecuador,100,Americas,South America,5.80,972,2017
+French Guiana,101,Americas,South America,13.15,30,2009
+Guyana,102,Americas,South America,14.80,115,2017
+Paraguay,103,Americas,South America,9.29,617,2015
+Peru,104,Americas,South America,7.70,"2,487",2017
+Suriname,105,Americas,South America,5.50,31,2017
+Uruguay,106,Americas,South America,8.20,284,2017
+Venezuela,107,Americas,South America,56.33,"17,778",2016
+Kazakhstan,108,Asia,Central Asia,5.00,915,2017
+Kyrgyzstan,109,Asia,Central Asia,4.20,256,2017
+Tajikistan,110,Asia,Central Asia,1.61,126,2011
+Turkmenistan,111,Asia,Central Asia,4.22,203,2006
+Uzbekistan,112,Asia,Central Asia,1.10,363,2017
+China,113,Asia,Eastern Asia,0.60,"7,990",2017
+Hong Kong,114,Asia,Eastern Asia,0.30,24,2017
+Japan,115,Asia,Eastern Asia,0.20,306,2017
+Macau,116,Asia,Eastern Asia,0.3,2,2017
+Mongolia,117,Asia,Eastern Asia,6.20,191,2017
+North Korea,118,Asia,Eastern Asia,4.40,"1,110",2015
+South Korea,119,Asia,Eastern Asia,0.60,301,2017
+Taiwan,120,Asia,Eastern Asia,0.82,192,2015
+Brunei,121,Asia,South-Eastern Asia,0.49,2,2013
+Cambodia,122,Asia,South-Eastern Asia,1.84,268,2011
+Indonesia,123,Asia,South-Eastern Asia,0.40,"1,150",2017
+Laos,124,Asia,South-Eastern Asia,7.01,467,2015
+Malaysia,125,Asia,South-Eastern Asia,2.11,627,2013
+Myanmar,126,Asia,South-Eastern Asia,2.27,"1,198",2016
+Philippines,127,Asia,South-Eastern Asia,8.40,"8,826",2017
+Singapore,128,Asia,South-Eastern Asia,0.20,11,2017
+Thailand,129,Asia,South-Eastern Asia,3.24,"2,229",2016
+Timor-Leste,130,Asia,South-Eastern Asia,3.95,49,2015
+Vietnam,131,Asia,South-Eastern Asia,1.52,"1,358",2011
+Afghanistan,132,Asia,Southern Asia,7.10,"2,515",2017
+Bangladesh,133,Asia,Southern Asia,2.20,"3,549",2017
+Bhutan,134,Asia,Southern Asia,1.60,13,2017
+India,135,Asia,Southern Asia,3.22,"42,678",2016
+Iran,136,Asia,Southern Asia,2.47,"1,936",2014
+Maldives,137,Asia,Southern Asia,0.75,3,2013
+Nepal,138,Asia,Southern Asia,2.16,627,2016
+Pakistan,139,Asia,Southern Asia,4.20,"8,235",2017
+Sri Lanka,140,Asia,Southern Asia,2.30,486,2017
+Armenia,141,Asia,Western Asia,2.40,70,2017
+Azerbaijan,142,Asia,Western Asia,2.00,201,2017
+Bahrain,143,Asia,Western Asia,0.52,7,2014
+Cyprus,144,Asia,Western Asia,0.60,7,2017
+Georgia,145,Asia,Western Asia,0.99,39,2016
+Iraq,146,Asia,Western Asia,9.85,"3,339",2013
+Central Iraq,147,Asia,Western Asia,10.08,"3,029",2014
+Kurdistan Region (Iraq),148,Asia,Western Asia,2.20,111,2013
+Israel,149,Asia,Western Asia,1.36,110,2015
+Jordan,150,Asia,Western Asia,1.40,133,2017
+Kuwait,151,Asia,Western Asia,1.80,61,2012
+Lebanon,152,Asia,Western Asia,3.99,235,2016
+Oman,153,Asia,Western Asia,0.50,24,2017
+Qatar,154,Asia,Western Asia,0.38,9,2014
+Saudi Arabia,155,Asia,Western Asia,1.30,419,2017
+Palestine,156,Asia,Western Asia,0.69,33,2016
+Syria,157,Asia,Western Asia,2.20,463,2010
+Turkey,158,Asia,Western Asia,4.31,"3,216",2012
+United Arab Emirates,159,Asia,Western Asia,0.50,44,2017
+Yemen,160,Asia,Western Asia,6.66,"1,703",2013
+Belarus,161,Europe,Eastern Europe,3.58,340,2014
+Bulgaria,162,Europe,Eastern Europe,1.50,103,2017
+Czech Republic,163,Europe,Eastern Europe,0.60,66,2017
+Hungary,164,Europe,Eastern Europe,2.50,242,2017
+Poland,165,Europe,Eastern Europe,0.80,287,2017
+Moldova,166,Europe,Eastern Europe,3.19,130,2014
+Romania,167,Europe,Eastern Europe,1.50,286,2017
+Russia,168,Europe,Eastern Europe,9.20,"13,293",2017
+Slovakia,169,Europe,Eastern Europe,1.50,80,2017
+Ukraine,170,Europe,Eastern Europe,6.20,"2,751",2017
+Channel Islands,171,Europe,Northern Europe,0.00,0,2010
+Denmark,172,Europe,Northern Europe,1.20,71,2017
+Estonia,173,Europe,Northern Europe,2.20,29,2017
+Finland,174,Europe,Northern Europe,1.20,69,2017
+Iceland,175,Europe,Northern Europe,0.90,3,2017
+Ireland,176,Europe,Northern Europe,0.90,41,2017
+Isle of Man,177,Europe,Northern Europe,0.00,0,2016
+Latvia,178,Europe,Northern Europe,4.20,81,2017
+Lithuania,179,Europe,Northern Europe,4.50,129,2017
+Norway,180,Europe,Northern Europe,0.50,28,2017
+Sweden,181,Europe,Northern Europe,1.10,113,2017
+England and Wales,182,Europe,Northern Europe,1.20,726,2017
+Northern Ireland,183,Europe,Northern Europe,1.30,24,2017
+Scotland,184,Europe,Northern Europe,1.10,59,2017
+United Kingdom,185,Europe,Northern Europe,1.20,803,2017
+Albania,186,Europe,Southern Europe,2.30,68,2017
+Andorra,187,Europe,Southern Europe,0.00,0,2015
+Bosnia and Herzegovina,188,Europe,Southern Europe,1.20,42,2017
+Croatia,189,Europe,Southern Europe,1.10,46,2017
+Gibraltar,190,Europe,Southern Europe,3.01,1,2010
+Greece,191,Europe,Southern Europe,0.70,82,2017
+Vatican City,192,Europe,Southern Europe,0.00,0,2015
+Italy,193,Europe,Southern Europe,0.67,400,2016
+Kosovo,194,Europe,Southern Europe,1.60,29,2016
+Malta,195,Europe,Southern Europe,0.94,4,2015
+Montenegro,196,Europe,Southern Europe,2.40,15,2017
+Portugal,197,Europe,Southern Europe,0.70,76,2017
+San Marino,198,Europe,Southern Europe,0.00,0,2011
+Serbia,199,Europe,Southern Europe,1.10,94,2017
+Slovenia,200,Europe,Southern Europe,0.90,19,2017
+Spain,201,Europe,Southern Europe,0.70,307,2017
+North Macedonia,202,Europe,Southern Europe,1.50,31,2017
+Austria,203,Europe,Western Europe,0.66,57,2016
+Belgium,204,Europe,Western Europe,1.70,193,2017
+France,205,Europe,Western Europe,1.30,824,2017
+Germany,206,Europe,Western Europe,1.00,813,2017
+Liechtenstein,207,Europe,Western Europe,0.00,0,2016
+Luxembourg,208,Europe,Western Europe,0.30,2,2017
+Monaco,209,Europe,Western Europe,0.00,0,2015
+Netherlands,210,Europe,Western Europe,0.80,132,2017
+Switzerland,211,Europe,Western Europe,0.50,45,2017
+Australia,212,Oceania,Australia and N.Z.,0.80,203,2017
+New Zealand,213,Oceania,Australia and N.Z.,0.70,35,2017
+Fiji,214,Oceania,Melanesia,2.26,20,2014
+New Caledonia,215,Oceania,Melanesia,3.23,8,2009
+Papua New Guinea,216,Oceania,Melanesia,7.85,520,2007
+Solomon Islands,217,Oceania,Melanesia,3.77,19,2008
+Vanuatu,218,Oceania,Melanesia,2.13,6,2015
+Guam,219,Oceania,Micronesia,2.51,4,2011
+Kiribati,220,Oceania,Micronesia,7.50,8,2012
+Micronesia,221,Oceania,Micronesia,4.67,5,2015
+Nauru,222,Oceania,Micronesia,0.00,0,2012
+Palau,223,Oceania,Micronesia,3.11,1,2012
+American Samoa,224,Oceania,Polynesia,5.40,3,2016
+Cook Islands,225,Oceania,Polynesia,3.49,1,2012
+French Polynesia,226,Oceania,Polynesia,0.38,1,2009
+Niue,227,Oceania,Polynesia,0.00,0,2012
+Samoa,228,Oceania,Polynesia,3.15,6,2013
+Tonga,229,Oceania,Polynesia,0.95,1,2012
+Tuvalu,230,Oceania,Polynesia,18.65,2,2012
