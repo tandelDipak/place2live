@@ -4,12 +4,14 @@ from scrapy import Spider
 from scrapy.loader import ItemLoader
 from inflation.items import InflationItem
 
+
 def isRate(candidate):
     try:
         float(candidate)
         return True
     except Exception:
         return False
+
 
 class InflationSpider(Spider):
     name = "inflation"
@@ -19,8 +21,11 @@ class InflationSpider(Spider):
     def parse(self, response):
         table = bs(response.body, "html.parser").findAll("tbody")[2]
 
-        countries = [c["title"] for c in table.findAll("a", href=True, title=True)]
-        dates = [re.findall('\d+', yr)[0] for yr in table.findAll("td", {"data-sort-value": True})]
+        countries = [c["title"] for c in table.findAll(
+            "a", href=True, title=True
+            )]
+        dateCandidates = table.findAll("td", {"data-sort-value": True})
+        dates = [re.findall(r'\d+', yr)[0] for yr in dateCandidates]
         inflations = []
         for td in [i.replace("−", "-") for i in table.findAll("td")]:
             if isRate(td):
