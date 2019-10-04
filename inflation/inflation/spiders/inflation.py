@@ -22,7 +22,7 @@ class InflationSpider(Spider):
         table = bs(response.body, "html.parser").findAll("tbody")[2]
 
         countries = [c["title"] for c in table.findAll(
-            "a", href=True, title=True
+            "a", href=True, title=True,
             )]
         dateCandidates = table.findAll("td", {"data-sort-value": True})
         dates = [re.findall(r'\d+', yr)[0] for yr in dateCandidates]
