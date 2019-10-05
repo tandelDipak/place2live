@@ -5,7 +5,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/serhii73/place2live.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/serhii73/place2live/stargazers/)
 ![GitHub forks](https://img.shields.io/github/forks/serhii73/place2live.svg?style=social)
 [![GitHub issues](https://img.shields.io/github/issues/serhii73/place2live.svg)](https://GitHub.com/serhii73/place2live/issues/)
-[![Build Status](https://travis-ci.org/serhii73/place2live.svg?branch=master)](https://travis-ci.org/serhii73/place2live)
 [![Maintainability](https://api.codeclimate.com/v1/badges/47e4016232ba87ac5d4e/maintainability)](https://codeclimate.com/github/serhii73/place2live/maintainability)
 [![BCH compliance](https://bettercodehub.com/edge/badge/serhii73/place2live?branch=master)](https://bettercodehub.com/)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/serhii73/place2live.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/serhii73/place2live/alerts/)
