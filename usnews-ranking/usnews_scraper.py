@@ -10,7 +10,7 @@ def get_data():
     agent = "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
     headers = {"User-Agent": agent}  # Defining a user agent is necessary to the request
     res = requests.get(
-        "https://www.usnews.com/news/best-countries/overall-rankings", headers=headers
+        "https://www.usnews.com/news/best-countries/overall-rankings", headers=headers,
     )
 
     soup = BeautifulSoup(res.text, "html.parser")
@@ -41,7 +41,7 @@ def write_to_csv():
                 "capital",
                 "gdp_per_capita",
                 "geographic_region_name",
-            ]
+            ],
         )
 
         # Writing information for each country
@@ -57,7 +57,7 @@ def write_to_csv():
                         country["capital"],
                         country["gdp_per_capita"],
                         country["geographic_region_name"],
-                    ]
+                    ],
                 )
 
 
