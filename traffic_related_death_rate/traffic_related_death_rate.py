@@ -2,7 +2,7 @@
 # coding: utf-8
 # Written by @yusrilia on GitHub
 
-from bs4 import BeautifulSoup 
+from bs4 import BeautifulSoup
 import requests
 import csv
 
@@ -14,18 +14,17 @@ table = data.find_all("td")
 with open('traffic_related_death_rate.csv', 'w') as write:
     tmp=[]
     writer=csv.writer(write)
-    writer.writerow(["Location", "Road fatalities per 100000 inhabitants per year", 
-                     "Road fatalities per 100000 motor vehicles", 
+    writer.writerow(["Location", "Road fatalities per 100000 inhabitants per year",
+                     "Road fatalities per 100000 motor vehicles",
                      "Road fatalities per 1 billion vehicle-km", "Total fatalities latest year", "Year"])
     index = 0
     for item in table:
         text = item.text
         result =(text[:text.index('[')]) if '[' in text else text.strip('\n').strip()
-        if index % 6 == 4: 
-            result= int(result.replace(',', ''))        
+        if index % 6 == 4:
+            result = int(result.replace(',', ''))
         tmp += [result]
         if index % 6 == 5:
-            writer.writerow(tmp)            
+            writer.writerow(tmp)
             tmp = []
         index += 1
-
