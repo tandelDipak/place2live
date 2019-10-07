@@ -1,0 +1,181 @@
+country,region,rank/180,score/100
+Denmark,Western Europe & European Union,1,88
+New Zealand,Asia Pacific,2,87
+Finland,Western Europe & European Union,3,85
+Singapore,Asia Pacific,3,85
+Sweden,Western Europe & European Union,3,85
+Switzerland,Western Europe & European Union,3,85
+Norway,Western Europe & European Union,7,84
+Netherlands,Western Europe & European Union,8,82
+Canada,Americas,9,81
+Luxembourg,Western Europe & European Union,9,81
+Germany,Western Europe & European Union,11,80
+United Kingdom,Western Europe & European Union,11,80
+Australia,Asia Pacific,13,77
+Austria,Western Europe & European Union,14,76
+Hong Kong,Asia Pacific,14,76
+Iceland,Western Europe & European Union,14,76
+Belgium,Western Europe & European Union,17,75
+Estonia,Western Europe & European Union,18,73
+Ireland,Western Europe & European Union,18,73
+Japan,Asia Pacific,18,73
+France,Western Europe & European Union,21,72
+United States of America,Americas,22,71
+United Arab Emirates,Middle East & North Africa,23,70
+Uruguay,Americas,23,70
+Barbados,Americas,25,68
+Bhutan,Asia Pacific,25,68
+Chile,Americas,27,67
+Seychelles,Sub-Saharan Africa,28,66
+Bahamas,Americas,29,65
+Portugal,Western Europe & European Union,30,64
+Brunei Darussalam,Asia Pacific,31,63
+Taiwan,Asia Pacific,31,63
+Qatar,Middle East & North Africa,33,62
+Botswana,Sub-Saharan Africa,34,61
+Israel,Middle East & North Africa,34,61
+Poland,Western Europe & European Union,36,60
+Slovenia,Western Europe & European Union,36,60
+Cyprus,Western Europe & European Union,38,59
+Czech Republic,Western Europe & European Union,38,59
+Lithuania,Western Europe & European Union,38,59
+Georgia,Eastern Europe & Central Asia,41,58
+Latvia,Western Europe & European Union,41,58
+Saint Vincent and the Grenadines,Americas,41,58
+Spain,Western Europe & European Union,41,58
+Cabo Verde,Sub-Saharan Africa,45,57
+Dominica,Americas,45,57
+"Korea, South",Asia Pacific,45,57
+Costa Rica,Americas,48,56
+Rwanda,Sub-Saharan Africa,48,56
+Saint Lucia,Americas,50,55
+Malta,Western Europe & European Union,51,54
+Namibia,Sub-Saharan Africa,52,53
+Grenada,Americas,53,52
+Italy,Western Europe & European Union,53,52
+Oman,Middle East & North Africa,53,52
+Mauritius,Sub-Saharan Africa,56,51
+Slovakia,Western Europe & European Union,57,50
+Jordan,Middle East & North Africa,58,49
+Saudi Arabia,Middle East & North Africa,58,49
+Croatia,Western Europe & European Union,60,48
+Cuba,Americas,61,47
+Malaysia,Asia Pacific,61,47
+Romania,Western Europe & European Union,61,47
+Hungary,Western Europe & European Union,64,46
+Sao Tome and Principe,Sub-Saharan Africa,64,46
+Vanuatu,Asia Pacific,64,46
+Greece,Western Europe & European Union,67,45
+Montenegro,Eastern Europe & Central Asia,67,45
+Senegal,Sub-Saharan Africa,67,45
+Belarus,Eastern Europe & Central Asia,70,44
+Jamaica,Americas,70,44
+Solomon Islands,Asia Pacific,70,44
+Morocco,Middle East & North Africa,73,43
+South Africa,Sub-Saharan Africa,73,43
+Suriname,Americas,73,43
+Tunisia,Middle East & North Africa,73,43
+Bulgaria,Western Europe & European Union,77,42
+Burkina Faso,Sub-Saharan Africa,78,41
+Ghana,Sub-Saharan Africa,78,41
+India,Asia Pacific,78,41
+Kuwait,Middle East & North Africa,78,41
+Lesotho,Sub-Saharan Africa,78,41
+Trinidad and Tobago,Americas,78,41
+Turkey,Eastern Europe & Central Asia,78,41
+Argentina,Americas,85,40
+Benin,Sub-Saharan Africa,85,40
+China,Asia Pacific,87,39
+Serbia,Eastern Europe & Central Asia,87,39
+Bosnia and Herzegovina,Eastern Europe & Central Asia,89,38
+Indonesia,Asia Pacific,89,38
+Sri Lanka,Asia Pacific,89,38
+Swaziland,Sub-Saharan Africa,89,38
+Gambia,Sub-Saharan Africa,93,37
+Guyana,Americas,93,37
+Kosovo,Eastern Europe & Central Asia,93,37
+Macedonia,Eastern Europe & Central Asia,93,37
+Mongolia,Asia Pacific,93,37
+Panama,Americas,93,37
+Albania,Eastern Europe & Central Asia,99,36
+Bahrain,Middle East & North Africa,99,36
+Colombia,Americas,99,36
+Philippines,Asia Pacific,99,36
+Tanzania,Sub-Saharan Africa,99,36
+Thailand,Asia Pacific,99,36
+Algeria,Middle East & North Africa,105,35
+Armenia,Eastern Europe & Central Asia,105,35
+Brazil,Americas,105,35
+Cote d'Ivoire,Sub-Saharan Africa,105,35
+Egypt,Middle East & North Africa,105,35
+El Salvador,Americas,105,35
+Peru,Americas,105,35
+Timor-Leste,Asia Pacific,105,35
+Zambia,Sub-Saharan Africa,105,35
+Ecuador,Americas,114,34
+Ethiopia,Sub-Saharan Africa,114,34
+Niger,Sub-Saharan Africa,114,34
+Moldova,Eastern Europe & Central Asia,117,33
+Pakistan,Asia Pacific,117,33
+Vietnam,Asia Pacific,117,33
+Liberia,Sub-Saharan Africa,120,32
+Malawi,Sub-Saharan Africa,120,32
+Mali,Sub-Saharan Africa,120,32
+Ukraine,Eastern Europe & Central Asia,120,32
+Djibouti,Sub-Saharan Africa,124,31
+Gabon,Sub-Saharan Africa,124,31
+Kazakhstan,Eastern Europe & Central Asia,124,31
+Maldives,Asia Pacific,124,31
+Nepal,Asia Pacific,124,31
+Dominican Republic,Americas,129,30
+Sierra Leone,Sub-Saharan Africa,129,30
+Togo,Sub-Saharan Africa,129,30
+Bolivia,Americas,132,29
+Honduras,Americas,132,29
+Kyrgyzstan,Eastern Europe & Central Asia,132,29
+Laos,Asia Pacific,132,29
+Myanmar,Asia Pacific,132,29
+Paraguay,Americas,132,29
+Guinea,Sub-Saharan Africa,138,28
+Iran,Middle East & North Africa,138,28
+Lebanon,Middle East & North Africa,138,28
+Mexico,Americas,138,28
+Papua New Guinea,Asia Pacific,138,28
+Russia,Eastern Europe & Central Asia,138,28
+Comoros,Sub-Saharan Africa,144,27
+Guatemala,Americas,144,27
+Kenya,Sub-Saharan Africa,144,27
+Mauritania,Sub-Saharan Africa,144,27
+Nigeria,Sub-Saharan Africa,144,27
+Bangladesh,Asia Pacific,149,26
+Central African Republic,Sub-Saharan Africa,149,26
+Uganda,Sub-Saharan Africa,149,26
+Azerbaijan,Eastern Europe & Central Asia,152,25
+Cameroon,Sub-Saharan Africa,152,25
+Madagascar,Sub-Saharan Africa,152,25
+Nicaragua,Americas,152,25
+Tajikistan,Eastern Europe & Central Asia,152,25
+Eritrea,Sub-Saharan Africa,157,24
+Mozambique,Sub-Saharan Africa,158,23
+Uzbekistan,Eastern Europe & Central Asia,158,23
+Zimbabwe,Sub-Saharan Africa,160,22
+Cambodia,Asia Pacific,161,20
+Democratic Republic of the Congo,Sub-Saharan Africa,161,20
+Haiti,Americas,161,20
+Turkmenistan,Eastern Europe & Central Asia,161,20
+Angola,Sub-Saharan Africa,165,19
+Chad,Sub-Saharan Africa,165,19
+Congo,Sub-Saharan Africa,165,19
+Iraq,Middle East & North Africa,168,18
+Venezuela,Americas,168,18
+Burundi,Sub-Saharan Africa,170,17
+Libya,Middle East & North Africa,170,17
+Afghanistan,Asia Pacific,172,16
+Equatorial Guinea,Sub-Saharan Africa,172,16
+Guinea Bissau,Sub-Saharan Africa,172,16
+Sudan,Sub-Saharan Africa,172,16
+"Korea, North",Asia Pacific,176,14
+Yemen,Middle East & North Africa,176,14
+South Sudan,Sub-Saharan Africa,178,13
+Syria,Middle East & North Africa,178,13
+Somalia,Sub-Saharan Africa,180,10
