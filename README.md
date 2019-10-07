@@ -56,5 +56,5 @@ Instead of installing Python yourself, this script can also be run with Docker:
 
 ```bash
 docker build -t place2live .
-docker run -i place2live # Runs the container in interactive mode, so the script has access to stdin of the host machine
+docker run -it place2live # Runs the container in interactive mode, so the script has access to stdin of the host machine
 ```
