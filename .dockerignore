@@ -1,0 +1,11 @@
+.github/
+.idea/
+img/
+.dockerignore
+.pre-commit-config.yaml
+.gitignore
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+Dockerfile
+LICENSE
+README.md
