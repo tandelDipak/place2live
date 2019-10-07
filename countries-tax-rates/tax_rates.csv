@@ -1,0 +1,222 @@
+country,corporate_tax,income_taxes_lowest_marginal_rate,income_taxes_heighest_marginal_rate,sales_tax
+Afghanistan,20%,0%,20%,0%
+Albania,15%,0%,23%,20%
+Algeria,26%,0%,35%,19%
+American Samoa,44%,4%,6%,0%
+Andorra,10%,10%,10%,4.5%
+Angola,30%,0%,17%,10%
+Anguilla,0%,0%,0%,0%
+Argentina,35%,9%,35%,21%
+Armenia,20%,24.4%,36%,20%
+Aruba,25%,7%,58.95%,1.5%
+Australia,30%,0%,47%,10%
+Austria,25%,0%,55%,20%
+Azerbaijan,20%,14%,25%,18%
+Bahamas,0%,0%,0%,12%
+Bahrain,0%,0%,0%,5%
+Bangladesh,35%,0%,25%,15%
+Barbados,5.5%,25%,38%,17.5%
+Belarus,18%,13%,17%,20%
+Belgium,29.58%,25%,50%,21%
+Belize,N/A,0%,25%,12.5%
+Benin,35%,10%,35%,18%
+Bermuda,0%,N/A,N/A,N/A
+Bhutan,26%,0%,25%,N/A
+Bolivia,29%,0%,25%,13%
+Bosnia and Herzegovina,10%,10%,10%,17%
+Botswana,22%,0%,25%,12%
+Brazil,34%,0%,27.5%,25%
+Brunei,20%,0%,0%,N/A
+Bulgaria,10%,10%,10%,20%
+Burkina Faso,27.5%,0%,25%,18%
+Burundi,35%,0%,35%,18%
+Cambodia,20%,0%,20%,10%
+Cameroon,31.5%,10%,35%,19.25%
+Canada,38%,19%,54%,15%
+Cape Verde,25%,16.5%,27.5%,15%
+Cayman Islands,0%,0%,0%,0%
+Central African Republic,30%,N/A,50%,19%
+Chad,N/A,N/A,N/A,N/A
+Chile,27%,0%,35%,19%
+China,25%,0%,45%,16%
+Colombia,33%,0%,35%,19%
+Comoros,N/A,N/A,N/A,N/A
+Cook Islands,30%,18.5%,30%,15%
+Democratic Republic of the Congo,35%,0%,40%,20%
+Congo,30%,N/A,N/A,18.9%
+Costa Rica,30%,0%,25%,13%
+Croatia,18%,12%,40%,25%
+Cuba,30%,15%,50%,20%
+Curaçao,22%,9.75%,46.5%,"6, 7 or 9%"
+Cyprus,12.5%,0%,35%,19%
+Czech Republic,19%,20.1%,45.7%,21%
+Denmark,22%,39.8596%,55.8584%,25%
+Djibouti,N/A,N/A,N/A,N/A
+Dominica,25%,0%,35%,15%
+Dominican Republic,27%,0%,25%,18%
+East Timor,N/A,N/A,N/A,N/A
+Ecuador,25%,0%,35%,12%
+Egypt,22.5%,0%,22.5%,14%
+El Salvador,30%,0%,30%,13%
+Equatorial Guinea,N/A,N/A,N/A,N/A
+Eritrea,N/A,N/A,N/A,N/A
+Estonia,0%,20%,20%,20%
+Eswatini (Swaziland),27.5%,33%,33%,14%
+Ethiopia,N/A,N/A,N/A,N/A
+Falkland Islands,26%,0%,26%,0%
+Federated States of Micronesia,N/A,N/A,N/A,N/A
+Fiji,20%,0%,20%,9%
+Finland,20%,0%,54.25%,24%
+France,31%,0%,45%,20%
+Gabon,35%,5%,35%,18%
+Gambia,31%,0%,30%,N/A
+Germany,29.65%,14%,47.475%,19%
+Georgia,0%,20%,20%,18%
+Ghana,N/A,N/A,N/A,3%
+Gibraltar,10%,17%,40%,0%
+Greece,28%,22%,45%,24%
+Grenada,N/A,N/A,N/A,N/A
+Guatemala,25%,5%,7%,12%
+Guinea,N/A,N/A,N/A,N/A
+Guinea-Bissau,N/A,N/A,N/A,N/A
+Guyana,30%,N/A,33⅓%,16%
+Guernsey,0%,0%,20%,0%
+Haiti,30%,0%,30%,10%
+Honduras,N/A,N/A,N/A,N/A
+Hong Kong,16.5%,0%,15%,0%
+Hungary,9%,15%,15%,27%
+Iceland,20%,0%,46%,24%
+India,,0%,42.7%,"28%, 18%, 12%, 5%, 0%"
+Indonesia,25%,5%,30%,10%
+Iran,25%,0%,35%,9%
+Iraq,N/A,N/A,N/A,N/A
+Ireland,12.5%,20%,52%,23%
+Isle of Man,0%,10%,20%,20%
+Israel,23%,11.5%,50%,17%
+Italy,27.9%,23%,47%,22%
+Ivory Coast,N/A,N/A,N/A,N/A
+Jamaica,33.3%,0%,25%,20%
+Japan,29.74%,15.105%,55.945%,10%
+Jersey,0%,0%,20%,5%
+Jordan,20%,0%,14%,16%
+Kazakhstan,20%,10%,10%,12%
+Kenya,30%,10%,30%,16%
+Kiribati,N/A,N/A,N/A,N/A
+Kuwait,0%,0%,0%,0%
+North Korea,25%,0%,20%,4%
+South Korea,24.2%,6% + 1.8%,42%,10%
+Kyrgyzstan,N/A,N/A,N/A,N/A
+Laos,N/A,N/A,N/A,N/A
+Latvia,0%,20%,31.4%,21%
+Lebanon,17%,2%,20%,11%
+Lesotho,N/A,N/A,N/A,N/A
+Liberia,25%,N/A,N/A,N/A
+Libya,N/A,N/A,N/A,N/A
+Liechtenstein,12.5%,3%,24%,7.7%
+Lithuania,15%,31.2%,42.77%,21%
+Luxembourg,29.22%,6%,52.45%,17%
+Macau,12%,0%,12%,0%
+Madagascar,N/A,N/A,N/A,N/A
+Malawi,N/A,N/A,N/A,N/A
+Malaysia,24%,0%,28%,10%
+Maldives,15%,0%,15%,6%
+Mali,N/A,N/A,N/A,N/A
+Malta,10%,0%,35%,18%
+Marshall Islands,N/A,0%,12%,4%
+Mauritania,N/A,N/A,N/A,N/A
+Mauritius,15%,15%,15%,15%
+Mexico,30%,1.92%,35%,16%
+Moldova,12%,12%,12%,20%
+Monaco,33.33%,0%,0%,19.6%
+Mongolia,10%,10%,10%,10%
+Montenegro,9%,9%,12.65%,11%
+Montserrat,N/A,N/A,N/A,N/A
+Morocco,31%,0%,20%,20%
+Mozambique,N/A,N/A,N/A,N/A
+Myanmar,N/A,N/A,N/A,N/A
+Namibia,32%,0%,37%,15%
+Nauru,N/A,N/A,N/A,N/A
+Nepal,30%,0%,50%,13%
+Netherlands,25%,36.55%,51.95%,21%
+New Zealand,28%,10.5%,33%,15%
+New Caledonia,30%,0%,40%,N/A
+Nicaragua,N/A,N/A,N/A,N/A
+Niger,N/A,N/A,N/A,N/A
+Nigeria,30%,7%,24%,5%
+Niue,N/A,N/A,N/A,12.5%
+Norfolk Island,N/A,N/A,N/A,N/A
+North Macedonia,10%,10%,18%,18%
+Norway,23%,0%,23%,25%
+Oman,15%,0%,0%,5%
+Pakistan,31%,7.5%,31%,17%
+Palau,N/A,N/A,N/A,N/A
+Palestine,15%,5%,15%,14.5%
+Panama,25%,0%,27%,7%
+Papua New Guinea,N/A,N/A,N/A,N/A
+Paraguay,10%,8%,10%,10%
+Peru,30%,0%,30%,16%
+Philippines,30%,0%,35%,12%
+Pitcairn Islands,N/A,N/A,N/A,N/A
+Poland,19%,0%,32%,23%
+Portugal,21%,14.5%,48%,23%
+Puerto Rico,20%,0%,33.34%,11.5%
+Qatar,10%,0%,0%,0%
+Romania,16%,10%,10%,19%
+Russia,20%,13%,47%,20%
+Rwanda,N/A,N/A,N/A,N/A
+Saint Kitts and Nevis,0%,0%,0%,N/A
+Saint Lucia,N/A,N/A,N/A,N/A
+Saint Pierre and Miquelon,N/A,N/A,N/A,N/A
+Saint Vincent and the Grenadines,N/A,N/A,N/A,N/A
+Samoa,N/A,N/A,N/A,N/A
+San Marino,17%,12%,50%,0%
+São Tomé and Príncipe,N/A,N/A,N/A,N/A
+Sark,0%,0%,0%,0%
+Saudi Arabia,5%,2.5%,2.5%,5%
+Senegal,25%,0%,50%,20%
+Serbia,15%,10%,25%,20%
+Seychelles,40%,15%,15%,15%
+Sierra Leone,N/A,N/A,N/A,N/A
+Singapore,17%,0%,22%,7%
+Sint Maarten,N/A,N/A,N/A,N/A
+Slovakia,22%,0%,25%,20%
+Slovenia,19%,16%,50%,22% or 9.5%
+Solomon Islands,N/A,N/A,N/A,N/A
+Somalia,N/A,N/A,N/A,N/A
+South Africa,28%,0%,45%,15%
+South Sudan,N/A,N/A,N/A,N/A
+Spain,25%,0%,45%,21%
+Sri Lanka,30%,0%,15%,12%
+Sudan,N/A,N/A,N/A,N/A
+Suriname,36%,N/A,N/A,N/A
+Sweden,21.4%,32%,57%,25%
+Switzerland,17.92%,0%,11.5%,7.7%
+Syria,22%,5%,15%,N/A
+Taiwan,20%,5%,40%,5%
+Tajikistan,13%,5%,13%,18%
+Tanzania,30%,15%,30%,18%
+Thailand,20%,0%,35%,7%
+Togo,N/A,N/A,N/A,N/A
+Tokelau,N/A,N/A,N/A,N/A
+Tonga,N/A,N/A,N/A,N/A
+Trinidad and Tobago,25%,0%,25%,12.5%
+Tunisia,30%,0%,35%,18%
+Turkey,20%,15%,35%,18%
+Turkmenistan,N/A,N/A,N/A,N/A
+Turks and Caicos Islands,N/A,N/A,N/A,N/A
+Tuvalu,N/A,N/A,N/A,N/A
+Uganda,30%,N/A,N/A,18%
+Ukraine,18%,18%,18%,20%
+United Arab Emirates,0%,0%,0%,5%
+United Kingdom,19%,0%,47%,20%
+United States,21% + 0–12%,0%,37%-49.3<>,11.725%
+Uruguay,25%,0%,30%,22%
+Uzbekistan,12%,12%,12%,20%
+Vanuatu,N/A,N/A,N/A,N/A
+Venezuela,34%,6%,34%,16%
+Vietnam,20%,5%,35%,10%
+British Virgin Islands,0%,0%,0%,N/A
+U.S. Virgin Islands,10%,N/A,N/A,N/A
+Yemen,20%,10%,15%,2%
+Zambia,35%,10%,30%,16%
+Zimbabwe,25%,0%,45%,15%
