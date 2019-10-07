@@ -16,8 +16,6 @@ income_taxes_lowest = []
 income_taxes_highest = []
 sales_taxes = []
 
-total_per_capita = []
-
 for row in rows[1:]:
     data_list = row.findAll("td")
     countries.append(data_list[0].find("a").text)

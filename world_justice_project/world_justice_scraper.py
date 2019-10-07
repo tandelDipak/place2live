@@ -1,6 +1,6 @@
 import json
-from datetime import datetime
 from csv import writer
+from datetime import datetime
 
 import requests
 
@@ -32,7 +32,7 @@ def get_data():
                 "overall_rank",
                 "income_rank",
                 "region_rank",
-            ]
+            ],
         )
 
         # Writing information for each count
@@ -46,7 +46,7 @@ def get_data():
                         country["global_rank"],
                         country["income_rank"],
                         country["regional_rank"],
-                    ]
+                    ],
                 )
 
 
