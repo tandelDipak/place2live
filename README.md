@@ -49,3 +49,12 @@ Note: if you run into a problem getting this to work, try the following at the c
 Hopefully that will resolve the issue.
 
 ![run the script](./img/run_script.png)
+
+Running with Docker
+
+Instead of installing Python yourself, this script can also be run with Docker:
+
+```bash
+docker build -t place2live .
+docker run -it place2live # Runs the container in interactive mode, so the script has access to stdin of the host machine
+```
