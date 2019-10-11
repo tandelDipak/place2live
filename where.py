@@ -67,7 +67,7 @@ def run_gender_checker():
         try:
             gender = input(
                 text_color(
-                    "What is their gender Male or Female? ", text_type.QUESTION,
+                    "What is your gender Male or Female? ", text_type.QUESTION,
                 ),
             )
             gender = gender.lower()
@@ -92,7 +92,7 @@ def get_url(country, age, gender):
     country = country.title()
     date = datetime.today().strftime('%Y-%m-%d')
     url_part1 = "https://d6wn6bmjj722w.cloudfront.net/1.0/life-expectancy/remaining/"
-    url_part2 = gender + "/" + country + "/" + date + "/" + age + "y/?format=json"
+    url_part2 = f"{gender}/{country}/{date}/{age}y/?format=json"
     return url_part1 + url_part2
 
 
@@ -482,6 +482,6 @@ if __name__ == "__main__":
             ),
         )
     else:
-        print_out_df['Life Expectancy'] = life_expectancy
+        print_out_df['life expectancy'] = life_expectancy
         with pd.option_context("display.max_rows", None, "display.max_columns", None):
             print(text_color(print_out_df, text_type.ANSWER))
