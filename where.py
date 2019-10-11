@@ -90,7 +90,7 @@ def get_url(country, age, gender):
     """Construct URL based on input"""
     country = country.title()
     date = datetime.today().strftime('%Y-%m-%d')
-    url_part1 = "https://d6wn6bmjj722w.cloudfront.net/1.0/life-expectancy/remaining/" 
+    url_part1 = "https://d6wn6bmjj722w.cloudfront.net/1.0/life-expectancy/remaining/"
     url_part2 = gender + "/" + country + "/" + date + "/" + age + "y/?format=json"
     return url_part1 + url_part2
 
