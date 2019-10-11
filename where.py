@@ -82,13 +82,17 @@ def run_gender_checker():
         else:
             return gender
 
+
 YOUR_GENDER = run_gender_checker()
 
 
 def get_url(country, age, gender):
     """Construct URL based on input"""
-    url = "https://d6wn6bmjj722w.cloudfront.net/1.0/life-expectancy/remaining/" + gender + "/" + country.title() + "/" + datetime.today().strftime('%Y-%m-%d') + "/" + age + "y/?format=json" 
-    return url
+    country = country.title()
+    date = datetime.today().strftime('%Y-%m-%d')
+    url_part1 = "https://d6wn6bmjj722w.cloudfront.net/1.0/life-expectancy/remaining/" 
+    url_part2 = gender + "/" + country + "/" + date + "/" + age + "y/?format=json"
+    return url_part1 + url_part2
 
 
 def max_min_index(name_index):
@@ -453,14 +457,13 @@ if __name__ == "__main__":
         ["country", "freedomhouse_score", "quality_of_life_index"]
     ].dropna().sort_values(by=['freedomhouse_score'], ascending=False)
 
-    life_expectancy = list()
-    error_contries = list()
-    countries = list()
+    life_expectancy = []
+    error_contries = []
     if not print_out_df.empty:
         countries = list(print_out_df['country'])
         for value in countries:
-            url = get_url(value, YOUR_AGE, YOUR_GENDER)
-            response = requests.get(url)
+            api_url = get_url(value, YOUR_AGE, YOUR_GENDER)
+            response = requests.get(api_url)
             data = response.json()
             try:
                 total_years = int(YOUR_AGE) + data['remaining_life_expectancy']
