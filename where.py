@@ -1,7 +1,7 @@
 from datetime import datetime
+
 import pandas as pd
 import requests
-
 
 from utils import text_color
 from utils import text_type
