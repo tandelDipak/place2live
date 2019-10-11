@@ -85,7 +85,6 @@ YOUR_GENDER = run_gender_checker()
 def get_url(country, age, gender):
     url = "https://d6wn6bmjj722w.cloudfront.net/1.0/life-expectancy/remaining/" + gender + "/" \
     + country.title() + "/" + datetime.today().strftime('%Y-%m-%d') + "/" + age + "y/?format=json" 
-    print (url)
     return url
 
 def max_min_index(name_index):
@@ -465,8 +464,6 @@ if __name__ == "__main__":
             except KeyError:
                 error_contries.append(country)
                 life_expectancy.append(None)
-    print (error_contries)
-    print (life_expectancy)
 
     if print_out_df.empty:
         print(
