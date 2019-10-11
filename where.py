@@ -37,7 +37,7 @@ YOUR_COUNTRY = run_country_checker()
 
 
 def run_age_checker():
-    """Take valide gender from user"""
+    """Take valid gender from user"""
     while True:
         try:
             age = input(
@@ -56,10 +56,12 @@ def run_age_checker():
         else:
             return age
 
+
 YOUR_AGE = run_age_checker()
 
+
 def run_gender_checker():
-    """Take valide gender from user"""
+    """Take valid gender from user"""
     while True:
         try:
             gender = input(
@@ -68,7 +70,7 @@ def run_gender_checker():
                 ),
             )
             gender = gender.lower()
-            if gender not in ["male",'female']:
+            if gender not in ["male", "female"]:
                 raise ValueError
         except ValueError:
             print(
@@ -82,10 +84,12 @@ def run_gender_checker():
 
 YOUR_GENDER = run_gender_checker()
 
+
 def get_url(country, age, gender):
-    url = "https://d6wn6bmjj722w.cloudfront.net/1.0/life-expectancy/remaining/" + gender + "/" \
-    + country.title() + "/" + datetime.today().strftime('%Y-%m-%d') + "/" + age + "y/?format=json" 
+    """Construct URL based on input"""
+    url = "https://d6wn6bmjj722w.cloudfront.net/1.0/life-expectancy/remaining/" + gender + "/" + country.title() + "/" + datetime.today().strftime('%Y-%m-%d') + "/" + age + "y/?format=json" 
     return url
+
 
 def max_min_index(name_index):
     """Return maximum and minimum value with country of a column from df."""
@@ -449,20 +453,21 @@ if __name__ == "__main__":
         ["country", "freedomhouse_score", "quality_of_life_index"]
     ].dropna().sort_values(by=['freedomhouse_score'], ascending=False)
 
-    life_expectancy = []
-    error_contries = []
+    life_expectancy = list()
+    error_contries = list()
+    countries = list()
     if not print_out_df.empty:
-        countries = print_out_df['country']
-        for country in countries:
-            url = get_url(country, YOUR_AGE, YOUR_GENDER)
+        countries = list(print_out_df['country'])
+        for value in countries:
+            url = get_url(value, YOUR_AGE, YOUR_GENDER)
             response = requests.get(url)
             data = response.json()
             try:
                 total_years = int(YOUR_AGE) + data['remaining_life_expectancy']
-                total_years = round(total_years,2)
+                total_years = round(total_years, 2)
                 life_expectancy.append(total_years)
             except KeyError:
-                error_contries.append(country)
+                error_contries.append(value)
                 life_expectancy.append(None)
 
     if print_out_df.empty:
